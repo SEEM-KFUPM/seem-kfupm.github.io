@@ -1,0 +1,26 @@
+---
+title: "Projects & Software"
+description: "Curated SEEM research outputs and reproducible examples"
+listing:
+  contents: "items/*.qmd"
+  type: grid
+  grid-columns: 3
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: true
+  fields: [image, title, description, categories, date]
+---
+
+<p class="page-lead">The website curates a small selection of research outputs and explains their purpose. GitHub remains the technical source of truth.</p>
+
+::: {.callout-important}
+## A project card should answer four questions
+
+What problem does it solve? Who is it for? What is the key result? Where are the code, paper, data, and demonstration?
+:::
+
+## Selected work
+
+## Reproducible publishing
+
+Quarto can turn an analysis into a page without copying plots by hand. Open the [synthetic seismic Python example](../examples/python.qmd) to inspect executable code, figure cross-references, tabbed explanations, and computed output.

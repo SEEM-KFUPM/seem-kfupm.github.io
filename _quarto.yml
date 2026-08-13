@@ -1,0 +1,69 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/**
+
+website:
+  title: "SEEM · KFUPM"
+  site-url: https://seem-kfupm.github.io
+  description: "Smart Earth Exploration and Monitoring research at KFUPM"
+  favicon: assets/media/icon.png
+  open-graph: true
+  twitter-card: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    logo: assets/media/icon.png
+    logo-alt: "SEEM"
+    pinned: true
+    collapse-below: lg
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: People
+        href: people/index.qmd
+      - text: Publications
+        href: publications/index.qmd
+      - text: Projects & Software
+        menu:
+          - text: Selected projects
+            href: projects/index.qmd
+          - text: Python notebook demo
+            href: examples/python.qmd
+      - text: News
+        href: news/index.qmd
+      - text: Join / Contact
+        href: join.qmd
+    right:
+      - icon: github
+        href: https://github.com/SEEM-KFUPM
+        aria-label: SEEM on GitHub
+  page-footer:
+    left: "© 2026 Smart Earth Exploration and Monitoring Group"
+    center: "College of Petroleum Engineering & Geosciences · KFUPM"
+    right:
+      - icon: github
+        href: https://github.com/SEEM-KFUPM
+        aria-label: SEEM on GitHub
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: true
+    link-external-newwindow: true
+    code-copy: true
+    code-overflow: wrap
+    anchor-sections: true
+    smooth-scroll: true
+
+execute:
+  freeze: auto
+  warning: false
+
+bibliography: publications.bib

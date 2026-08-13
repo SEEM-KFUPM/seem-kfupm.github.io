@@ -1,0 +1,37 @@
+---
+title: "Join / Contact"
+description: "Connect with the SEEM group at KFUPM"
+---
+
+<p class="page-lead">SEEM is preparing its public collaboration and recruitment information.</p>
+
+::: {.placeholder-note}
+Contact details and open positions are intentionally not invented in this prototype. Add them only after the group approves the recruitment message and responsible contact.
+:::
+
+::: {.contact-grid}
+::: {.contact-card}
+## Affiliation
+
+Smart Earth Exploration and Monitoring Group<br>
+College of Petroleum Engineering & Geosciences<br>
+King Fahd University of Petroleum and Minerals<br>
+Dhahran, Saudi Arabia
+:::
+
+::: {.contact-card}
+## Connect
+
+- [Explore SEEM on GitHub](https://github.com/SEEM-KFUPM)
+- [Visit KFUPM](https://www.kfupm.edu.sa/)
+
+An approved group email, scholarly profiles, and opportunity status can be added here before launch.
+:::
+:::
+
+## Before publishing recruitment information
+
+- Name the academic content owner and at least two repository maintainers.
+- Confirm which opportunities are currently open.
+- State the expected background and application materials.
+- Give every position a review or closing date.

@@ -1,0 +1,163 @@
+---
+title: "SEEM"
+page-layout: full
+title-block-style: none
+body-classes: seem-home
+toc: false
+description: "Smart Earth Exploration and Monitoring at KFUPM"
+---
+
+::: {.hero}
+::: {.hero-grid}
+::: {}
+<div class="eyebrow">Smart Earth Exploration and Monitoring · KFUPM</div>
+
+# We make the subsurface clearer.
+
+<p class="lead">SEEM develops computational methods for sensing, monitoring, imaging, and interpreting the Earth—connecting geoscience, signal processing, and scientific machine learning.</p>
+
+::: {.hero-actions}
+[Explore our research](research.qmd){.btn .btn-light}
+[View selected software](projects/index.qmd){.btn .btn-outline-light}
+:::
+:::
+
+::: {}
+![](assets/media/logo.png){.hero-logo alt="Smart Earth Exploration and Monitoring Group"}
+:::
+:::
+:::
+
+::: {.section-band}
+::: {.section-intro}
+## Four connected research themes
+
+We combine practical Earth observations with reproducible computational research, from field-scale monitoring to transparent geological interpretation.
+:::
+
+::: {.feature-grid}
+::: {.feature-card}
+<div class="feature-number">01 · SIGNAL</div>
+
+### Monitoring & microseismicity
+
+Detection, characterization, and localization of seismic events.
+:::
+
+::: {.feature-card}
+<div class="feature-number">02 · SENSING</div>
+
+### DAS & VSP analysis
+
+Signal processing and deep learning for distributed acoustic sensing observations.
+:::
+
+::: {.feature-card}
+<div class="feature-number">03 · COMPUTATION</div>
+
+### Scientific machine learning
+
+Neural operators and physics-informed learning for inverse problems and reconstruction.
+:::
+
+::: {.feature-card}
+<div class="feature-number">04 · INSIGHT</div>
+
+### Geological interpretation
+
+Explainable AI and reconstruction tools for transparent subsurface interpretation.
+:::
+:::
+:::
+
+::: {.section-band .soft}
+::: {.section-intro}
+## Selected work
+
+The website explains why each result matters; GitHub remains the technical source of truth.
+:::
+
+::: {.project-grid}
+::: {.project-card}
+<span class="status-chip">Prototype project card</span>
+
+### SeisReconNO
+
+A U-Net-enhanced Fourier neural operator approach for reconstructing missing traces in 3D seismic data.
+
+<span class="tag">Neural operators</span><span class="tag">3D seismic</span><span class="tag">Open source</span>
+
+::: {.card-actions}
+[Project story](projects/seisreconno.qmd){.btn .btn-sm .btn-primary}
+[GitHub](https://github.com/SEEM-KFUPM/SeisReconNO){.btn .btn-sm .btn-outline-primary}
+:::
+:::
+
+::: {.project-card}
+<span class="status-chip">Quarto feature demo</span>
+
+### From code to research story
+
+An executable Python page turns a synthetic seismic experiment into a figure, a quality table, and a reproducible explanation.
+
+<span class="tag">Python</span><span class="tag">Jupyter</span><span class="tag">Reproducibility</span>
+
+::: {.card-actions}
+[Open notebook demo](examples/python.qmd){.btn .btn-sm .btn-primary}
+:::
+:::
+:::
+
+::: {.metric-strip}
+::: {.metric}
+**Markdown + `.qmd`**
+Reviewable source
+:::
+::: {.metric}
+**Python + citations**
+Scientific publishing
+:::
+::: {.metric}
+**Static HTML**
+GitHub Pages ready
+:::
+:::
+:::
+
+::: {.section-band}
+::: {.section-intro}
+## Publications and people
+
+The prototype begins with one verified public record and one visibly labeled profile placeholder. Approved team data can replace the placeholder without changing the design.
+:::
+
+::: {.project-grid}
+::: {.project-card}
+### Selected publication
+
+Traversa *et al.* present SeisReconNO, combining Fourier neural operators and a U-Net-enhanced architecture for 3D seismic reconstruction [@traversa2026seisreconno].
+
+[Browse publications](publications/index.qmd)
+:::
+
+::: {.project-card}
+### A sustainable contribution path
+
+Students and postdocs can copy a short `.qmd` template, preview locally, and open a pull request. Metadata powers the people, projects, and news listings automatically.
+
+[See the prototype profile](people/index.qmd) · [Read the workflow note](news/posts/prototype-workflow.qmd)
+:::
+:::
+:::
+
+::: {.section-band .soft}
+::: {.cta-band}
+::: {}
+## Work with SEEM
+
+Explore our open-source work, propose a collaboration, or help prepare approved public information for the group.
+:::
+
+[Join / Contact](join.qmd){.btn .btn-light .btn-lg}
+:::
+:::

@@ -1,0 +1,21 @@
+---
+title: "News"
+description: "Updates from SEEM"
+listing:
+  contents: "posts/*.qmd"
+  type: grid
+  grid-columns: 3
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: true
+  fields: [image, title, description, categories, date]
+  feed: true
+---
+
+<p class="page-lead">Short, dated updates can record presentations, releases, workshops, visitors, and student achievements.</p>
+
+::: {.placeholder-note}
+**Prototype section:** the sample below demonstrates the editorial workflow and is not a public announcement.
+:::
+
+## Updates from SEEM
