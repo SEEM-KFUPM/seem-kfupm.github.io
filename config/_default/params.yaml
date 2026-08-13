@@ -1,0 +1,91 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# HUGOBLOX CONFIGURATION
+# Schema: hugoblox.com/schema/v2
+# Documentation: https://docs.hugoblox.com/
+# ══════════════════════════════════════════════════════════════════════════════
+hugoblox:
+  schema: "2.0"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # IDENTITY
+  # ────────────────────────────────────────────────────────────────────────────
+  identity:
+    name: "SEEM — KFUPM"
+    organization: "Smart Earth Exploration Monitoring Group, KFUPM"
+    type: organization # person | organization | local_business
+    tagline: "Smart Earth Exploration Monitoring"
+    description: "A research group at King Fahd University of Petroleum and Minerals advancing intelligent Earth exploration and monitoring."
+    social:
+      twitter: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # THEME
+  # ────────────────────────────────────────────────────────────────────────────
+  theme:
+    mode: system # light | dark | system
+    pack: "default"
+    colors:
+      primary: "#003e51"
+      secondary: "#008540"
+      neutral: "#2d302f"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # TYPOGRAPHY
+  # ────────────────────────────────────────────────────────────────────────────
+  typography:
+    pack: "system"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # LAYOUT
+  # ────────────────────────────────────────────────────────────────────────────
+  layout:
+    radius: "md" # none | sm | md | lg | full
+    spacing: "spacious" # compact | comfortable | spacious
+    avatar_shape: circle # circle | square | rounded
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # HEADER
+  # ────────────────────────────────────────────────────────────────────────────
+  header:
+    enable: true
+    style: navbar # navbar | navbar-simple | minimal
+    sticky: true
+    align: center # left | center | right
+    search: false
+    theme_toggle: true
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # FOOTER
+  # ────────────────────────────────────────────────────────────────────────────
+  footer:
+    style: minimal # minimal | columns | centered
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # COPYRIGHT
+  # ────────────────────────────────────────────────────────────────────────────
+  copyright:
+    notice: "© {year} SEEM — KFUPM · Prototype content under review"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # CONTENT
+  # ────────────────────────────────────────────────────────────────────────────
+  content:
+    math:
+      enable: false
+    toc:
+      enable: true
+    reading_time:
+      enable: true
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # SEARCH
+  # ────────────────────────────────────────────────────────────────────────────
+  search:
+    enable: false
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # LOCALE
+  # ────────────────────────────────────────────────────────────────────────────
+  locale:
+    date_format: "Jan 2, 2006"
+    time_format: "3:04 PM"
