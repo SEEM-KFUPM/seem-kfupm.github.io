@@ -1,0 +1,29 @@
+# Local SEEM typography, bundled with the website for consistent rendering.
+hugoblox:
+  meta:
+    format: "hugoblox-font@1"
+    name: "SEEM Omnes"
+    vendor: "SEEM"
+    version: "1.0.0"
+    description: "Omnes Regular and Semibold supplied with the SEEM visual identity"
+
+  families:
+    heading: "Omnes Semibold"
+    body: "Omnes"
+    nav: "Omnes Semibold"
+    code: "system-mono"
+
+  weights:
+    heading: [600]
+    body: [400]
+    nav: [600]
+    code: [400]
+
+  leading:
+    heading: 1.2
+    body: 1.6
+    code: 1.5
+
+  tracking:
+    heading: "-0.01em"
+    body: "0"

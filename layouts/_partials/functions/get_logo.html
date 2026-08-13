@@ -1,0 +1,29 @@
+{{/*
+  Local branding override. The supplied full SEEM lockup has a generous clear
+  space, so it needs a larger rendered box than the default navbar logo.
+*/}}
+
+{{ $constraint := .constraint | default "fit" }}
+{{ $size := .size | default 36 }}
+{{ if and (eq $constraint "max_height") (eq $size 36) }}
+  {{ $size = 88 }}
+{{ end }}
+{{ $result := dict "resource" nil "type" "" "is_svg" false }}
+
+{{ $logo_svg := resources.Get "media/logo.svg" }}
+{{ if $logo_svg }}
+  {{ $result = dict "resource" $logo_svg "type" "image/svg+xml" "is_svg" true }}
+{{ else }}
+  {{ $logo_png := resources.Get "media/logo.png" }}
+  {{ if $logo_png }}
+    {{ $logo_processed := $logo_png }}
+    {{ if eq $constraint "max_height" }}
+      {{ $logo_processed = $logo_png.Resize (printf "x%d" $size) }}
+    {{ else }}
+      {{ $logo_processed = $logo_png.Fit (printf "%dx%d" $size $size) }}
+    {{ end }}
+    {{ $result = dict "resource" $logo_processed "type" "image/png" "is_svg" false }}
+  {{ end }}
+{{ end }}
+
+{{ return $result }}

@@ -33,7 +33,7 @@ hugoblox:
   # TYPOGRAPHY
   # ────────────────────────────────────────────────────────────────────────────
   typography:
-    pack: "system"
+    pack: "omnes"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
@@ -53,6 +53,7 @@ hugoblox:
     align: center # left | center | right
     search: false
     theme_toggle: true
+    show_title: false
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
