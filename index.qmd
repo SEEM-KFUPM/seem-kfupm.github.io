@@ -10,7 +10,7 @@ description: "Smart Earth Exploration and Monitoring at KFUPM"
 ::: {.hero}
 ::: {.hero-grid}
 ::: {}
-<div class="eyebrow">Smart Earth Exploration and Monitoring · KFUPM</div>
+<div class="eyebrow">Smart Earth Exploration and Monitoring · CPG · KFUPM</div>
 
 # We make the subsurface clearer.
 

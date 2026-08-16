@@ -303,8 +303,52 @@ button:focus-visible {
   border-radius: 0.6rem;
 }
 
-.page-footer {
+.nav-footer {
   border-top: 4px solid var(--seem-green);
+}
+
+.footer-affiliation {
+  display: grid;
+  gap: 0.5rem;
+  justify-items: center;
+}
+
+.footer-affiliation-logo {
+  display: inline-block;
+}
+
+.footer-logo {
+  display: block;
+  height: auto;
+  max-width: min(100%, 220px);
+  width: 220px;
+}
+
+.footer-logo-dark {
+  display: none;
+}
+
+.footer-affiliation p {
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .nav-footer {
+    background: var(--seem-teal);
+    color: #fff;
+  }
+
+  .nav-footer a {
+    color: #fff;
+  }
+
+  .footer-logo-light {
+    display: none;
+  }
+
+  .footer-logo-dark {
+    display: block;
+  }
 }
 
 @media (max-width: 900px) {

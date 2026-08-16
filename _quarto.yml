@@ -44,7 +44,14 @@ website:
         aria-label: SEEM on GitHub
   page-footer:
     left: "© 2026 Smart Earth Exploration and Monitoring Group"
-    center: "College of Petroleum Engineering & Geosciences · KFUPM"
+    center: |
+      <div class="footer-affiliation">
+        <a class="footer-affiliation-logo" href="https://cpg.kfupm.edu.sa/" aria-label="College of Petroleum Engineering & Geosciences">
+          <img class="footer-logo footer-logo-light" src="/assets/media/cpg-logo-black.png" alt="College of Petroleum Engineering & Geosciences">
+          <img class="footer-logo footer-logo-dark" src="/assets/media/cpg-logo-white.png" alt="">
+        </a>
+        <p><a href="https://cpg.kfupm.edu.sa/">College of Petroleum Engineering &amp; Geosciences</a> · <a href="https://www.kfupm.edu.sa/">KFUPM</a></p>
+      </div>
     right:
       - icon: github
         href: https://github.com/SEEM-KFUPM
