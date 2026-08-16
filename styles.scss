@@ -2,14 +2,14 @@
 
 $font-family-sans-serif: "Omnes", "Avenir Next", "Segoe UI", sans-serif;
 $headings-font-family: "Omnes", "Avenir Next", "Segoe UI", sans-serif;
-$body-color: #263431;
-$headings-color: #003e51;
-$primary: #008540;
-$secondary: #aa8a00;
-$link-color: #007264;
-$navbar-bg: #003e51;
-$navbar-fg: #ffffff;
-$navbar-hl: #f2d65c;
+$body-color: #263431 !default;
+$headings-color: #003e51 !default;
+$primary: #008540 !default;
+$secondary: #aa8a00 !default;
+$link-color: #007264 !default;
+$navbar-bg: #003e51 !default;
+$navbar-fg: #ffffff !default;
+$navbar-hl: #f2d65c !default;
 $border-radius: 0.7rem;
 
 /*-- scss:rules --*/
@@ -324,31 +324,8 @@ button:focus-visible {
   width: 220px;
 }
 
-.footer-logo-dark {
-  display: none;
-}
-
 .footer-affiliation p {
   margin: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-  .nav-footer {
-    background: var(--seem-teal);
-    color: #fff;
-  }
-
-  .nav-footer a {
-    color: #fff;
-  }
-
-  .footer-logo-light {
-    display: none;
-  }
-
-  .footer-logo-dark {
-    display: block;
-  }
 }
 
 @media (max-width: 900px) {

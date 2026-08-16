@@ -47,8 +47,8 @@ website:
     center: |
       <div class="footer-affiliation">
         <a class="footer-affiliation-logo" href="https://cpg.kfupm.edu.sa/" aria-label="College of Petroleum Engineering & Geosciences">
-          <img class="footer-logo footer-logo-light" src="/assets/media/cpg-logo-black.png" alt="College of Petroleum Engineering & Geosciences">
-          <img class="footer-logo footer-logo-dark" src="/assets/media/cpg-logo-white.png" alt="">
+          <img class="footer-logo light-content" src="/assets/media/cpg-logo-black.png" alt="College of Petroleum Engineering & Geosciences">
+          <img class="footer-logo dark-content" src="/assets/media/cpg-logo-white.png" alt="">
         </a>
         <p><a href="https://cpg.kfupm.edu.sa/">College of Petroleum Engineering &amp; Geosciences</a> · <a href="https://www.kfupm.edu.sa/">KFUPM</a></p>
       </div>
@@ -60,8 +60,9 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - styles.scss
+      light: [cosmo, styles.scss]
+      dark: [cosmo, styles.scss, styles-dark.scss]
+    respect-user-color-scheme: true
     toc: true
     link-external-newwindow: true
     code-copy: true
