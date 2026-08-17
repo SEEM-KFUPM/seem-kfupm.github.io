@@ -40,6 +40,19 @@ The output is written to `_site/`. Quarto's `freeze: auto` stores notebook resul
 - Add reviewed bibliographic records to `publications.bib` and cite them as `[@citation-key]`.
 - Put research teaching examples under `examples/`; declare every dependency in `requirements.txt` and use a deterministic random seed.
 
+### People and post attribution
+
+Each approved member has a profile in `people/profiles/` whose filename is their stable profile identifier (for example, `denis-anikiev.qmd`). Attribute a news post with a linked byline and a stable member identifier:
+
+```yaml
+author:
+  - name: Dr. Denis Anikiev
+    url: /people/profiles/denis-anikiev.html
+members: [denis-anikiev]
+```
+
+Use the display name in `author` for readers and the `members` identifier for automatic profile listings. Add more names or identifiers to their respective lists for co-authored posts.
+
 Every substantive change should be reviewed in a pull request. People, projects, positions, and institutional language should include an owner and review date before launch.
 
 ## Publishing decision

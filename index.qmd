@@ -128,7 +128,7 @@ GitHub Pages ready
 ::: {.section-intro}
 ## Publications and people
 
-The prototype begins with one verified public record and one visibly labeled profile placeholder. Approved team data can replace the placeholder without changing the design.
+The prototype begins with one verified public record and an approved member profile. Additional approved team data can be added without changing the design.
 :::
 
 ::: {.project-grid}
@@ -145,7 +145,7 @@ Traversa *et al.* present SeisReconNO, combining Fourier neural operators and a 
 
 Students and postdocs can copy a short `.qmd` template, preview locally, and open a pull request. Metadata powers the people, projects, and news listings automatically.
 
-[See the prototype profile](people/index.qmd) · [Read the workflow note](news/posts/prototype-workflow.qmd)
+[Meet the team](people/index.qmd) · [Read the workflow note](news/posts/prototype-workflow.qmd)
 :::
 :::
 :::

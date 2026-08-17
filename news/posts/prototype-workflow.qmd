@@ -2,6 +2,7 @@
 title: "Prototype: a reviewable workflow for SEEM news"
 date: 2026-08-13
 author: "SEEM website prototype"
+members: [seem-website-prototype]
 description: "A sample post demonstrating the short Markdown workflow for research updates, events, releases, and outreach."
 categories: [Prototype, Open research]
 image: ../../assets/media/icon.png
