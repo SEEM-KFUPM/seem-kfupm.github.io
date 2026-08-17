@@ -1,0 +1,51 @@
+---
+title: "Dr. Umair bin Waheed"
+subtitle: "Associate Professor · Department of Geosciences"
+description: "Computational geoscientist working on physics- and data-driven machine learning, geophysical modelling, inverse problems, induced seismicity, and geothermal exploration."
+image: ../../assets/people/umair-waheed.jpg
+image-alt: "Portrait of Dr. Umair bin Waheed"
+categories: [Faculty, Computational geophysics, AI]
+reviewed: 2026-08-17
+toc: false
+listing:
+  id: umair-news
+  contents: ../../news/posts/*.qmd
+  include:
+    members: umair-waheed
+  type: default
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
+  fields: [title, description, categories, date]
+---
+
+:::: {.member-profile-intro}
+::: {.member-profile-portrait-wrap}
+<img class="member-profile-portrait" src="../../assets/people/umair-waheed.jpg" alt="Portrait of Dr. Umair bin Waheed">
+:::
+
+::: {.member-profile-summary}
+Dr. Umair bin Waheed is an Associate Professor in the Department of Geosciences at King Fahd University of Petroleum and Minerals. His research focuses on computational geoscience and the use of smart algorithms to automate and improve decision-making in subsurface energy systems.
+
+Before joining KFUPM in 2017, Umair was a postdoctoral fellow in the Department of Geosciences at Princeton University and a Writing in Science and Engineering fellow at the Princeton Writing Program. He earned his Ph.D. in Earth Science and Engineering from King Abdullah University of Science and Technology in 2015.
+:::
+::::
+
+## Research interests
+
+- Physics- and data-driven machine learning
+- Geophysical modelling
+- Inverse problems
+- Induced seismicity
+- Geothermal exploration
+
+## Links
+
+- [KFUPM / CPG profile](https://cpg.kfupm.edu.sa/bio/dr-umair-bin-waheed/)
+- [Personal website](https://umairbinwaheed.com/)
+- [Email Umair bin Waheed](mailto:umair.waheed@kfupm.edu.sa)
+
+## Latest news
+
+::: {#umair-news}
+:::
