@@ -7,9 +7,15 @@ and this project adheres to a simple date-based versioning.
 
 ## 2026-08-17
 
+### Added
+
+- Added profiles for Dr. Umair bin Waheed and Dr. Denis Anikiev, with portraits, biographies, links, and member-specific news listings.
+- Added linked author metadata and stable member identifiers for associating posts with profiles.
+
 ### Changed
 
 - Made Quarto's full-width page layout the site-wide default so inner-page content uses the same wider layout as the homepage.
+- Improved People cards with circular portraits and explicit profile ordering.
 
 ## 2026-08-16
 
