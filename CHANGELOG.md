@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple date-based versioning.
 
+## 2026-08-17
+
+### Changed
+
+- Made Quarto's full-width page layout the site-wide default so inner-page content uses the same wider layout as the homepage.
+
 ## 2026-08-16
 
 ### Added
