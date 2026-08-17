@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Seismic reconstruction illustration</title>
+  <desc id="desc">Layered teal seismic traces pass through a golden reconstruction window.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#003e51"/>
+      <stop offset="1" stop-color="#00705c"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="70" y="70" width="1060" height="535" rx="24"/></clipPath>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g clip-path="url(#frame)" fill="none" stroke="#d9f3ea" stroke-width="5" opacity=".88">
+    <path d="M20 165 C160 80 280 250 420 165 S680 80 820 165 1080 250 1220 165"/>
+    <path d="M20 235 C160 150 280 320 420 235 S680 150 820 235 1080 320 1220 235"/>
+    <path d="M20 305 C160 220 280 390 420 305 S680 220 820 305 1080 390 1220 305"/>
+    <path d="M20 375 C160 290 280 460 420 375 S680 290 820 375 1080 460 1220 375"/>
+    <path d="M20 445 C160 360 280 530 420 445 S680 360 820 445 1080 530 1220 445"/>
+    <path d="M20 515 C160 430 280 600 420 515 S680 430 820 515 1080 600 1220 515"/>
+  </g>
+  <rect x="520" y="70" width="160" height="535" fill="#dac961" opacity=".18"/>
+  <path d="M600 115V560" stroke="#dac961" stroke-width="6" stroke-dasharray="16 13"/>
+  <circle cx="600" cy="337" r="44" fill="#dac961"/>
+  <path d="m580 337 15 15 29-34" fill="none" stroke="#003e51" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

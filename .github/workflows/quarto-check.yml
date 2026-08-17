@@ -1,0 +1,43 @@
+name: Quarto build check
+
+on:
+  pull_request:
+  push:
+    branches: [quarto]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.18
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install notebook dependencies
+        run: pip install -r requirements.txt
+
+      - name: Render site
+        run: quarto render
+
+      - name: Check internal links
+        run: python scripts/check_internal_links.py
+
+      - name: Upload rendered site
+        uses: actions/upload-artifact@v4
+        with:
+          name: seem-quarto-site
+          path: _site

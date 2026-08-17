@@ -1,0 +1,73 @@
+---
+title: "Research"
+description: "Four connected SEEM research themes"
+---
+
+<p class="page-lead">SEEM develops computational methods for sensing, monitoring, imaging, and interpreting the Earth. Our work links measurements, physical understanding, and reproducible computation.</p>
+
+## Research themes
+
+::: {.feature-grid}
+::: {.feature-card}
+<div class="feature-number">MONITORING</div>
+
+### Microseismicity
+
+Methods for detecting, characterizing, and locating small seismic events, with attention to reliable decisions from noisy observations.
+
+**Topics:** event detection · localization · monitoring
+:::
+
+::: {.feature-card}
+<div class="feature-number">SENSING</div>
+
+### DAS & VSP
+
+Signal processing and learning methods for distributed acoustic sensing and vertical seismic profile data.
+
+**Topics:** DAS · VSP · denoising
+:::
+
+::: {.feature-card}
+<div class="feature-number">COMPUTATION</div>
+
+### Scientific ML
+
+Neural operators and physics-informed learning for geophysical inverse problems and reconstruction.
+
+**Topics:** FNO · PINO · inverse problems
+:::
+
+::: {.feature-card}
+<div class="feature-number">INTERPRETATION</div>
+
+### Explainable geoscience
+
+Reconstruction and explainable-AI tools that support transparent interpretation of the subsurface.
+
+**Topics:** xAI · geological sections · uncertainty
+:::
+:::
+
+## How the themes connect
+
+```{mermaid}
+flowchart LR
+  A[Earth observations] --> B[Signal processing]
+  B --> C[Physical + learned models]
+  C --> D[Images and event estimates]
+  D --> E[Transparent interpretation]
+  E -. informs .-> A
+```
+
+This diagram is rendered by Quarto from editable text. It is a useful pattern for students documenting a method without maintaining a separate drawing file.
+
+::: {.callout-note}
+## Editorial status
+
+These themes are based on the public SEEM software footprint and the website prototype. Research leads should approve the terminology and add representative figures before launch.
+:::
+
+## A reproducible example
+
+The [Python notebook demo](examples/python.qmd) shows how a technical result can live alongside the group website: executable code, a cross-referenced figure, a computed table, and a citation in one reviewable `.qmd` file.

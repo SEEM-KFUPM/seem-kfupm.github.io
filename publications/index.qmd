@@ -1,0 +1,30 @@
+---
+title: "Publications"
+description: "Selected, reviewed SEEM research outputs"
+nocite: |
+  @traversa2026seisreconno
+---
+
+<p class="page-lead">A shared BibTeX record powers citations in project pages, computational articles, and this publication index.</p>
+
+::: {.callout-tip}
+## Quarto feature: one bibliographic source
+
+The citation on the [SeisReconNO project page](../projects/seisreconno.qmd), the notebook example, and the reference below all resolve from `publications.bib`.
+:::
+
+## Selected record
+
+Traversa *et al.* introduce a U-Net-enhanced Fourier neural operator for reconstructing 3D seismic data [@traversa2026seisreconno].
+
+- [DOI: 10.1016/j.aiig.2026.100212](https://doi.org/10.1016/j.aiig.2026.100212)
+- [SEEM public repositories](https://github.com/SEEM-KFUPM)
+
+## References
+
+::: {#refs}
+:::
+
+::: {.callout-note}
+The MVP intentionally contains one reviewed public record. Add DOI/BibTeX automation only after the group agrees on ownership, deduplication, and review rules.
+:::

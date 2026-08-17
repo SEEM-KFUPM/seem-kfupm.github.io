@@ -1,0 +1,34 @@
+---
+title: "Prototype team member"
+subtitle: "Profile layout sample"
+description: "A visibly labeled placeholder demonstrating how an approved SEEM member profile can appear."
+image: ../../assets/media/icon.png
+image-alt: "SEEM icon used as a placeholder portrait"
+categories: [Prototype profile]
+reviewed: 2026-08-13
+toc: false
+---
+
+::: {.portrait-placeholder aria-label="Placeholder profile avatar"}
+SEEM
+:::
+
+::: {.placeholder-note}
+This is not a real team member. It exists only to test the content schema, card layout, and review workflow.
+:::
+
+## Research interests
+
+- Seismic monitoring
+- Scientific machine learning
+- Open research software
+
+## Affiliation and links
+
+Smart Earth Exploration and Monitoring Group, King Fahd University of Petroleum and Minerals.
+
+[SEEM on GitHub](https://github.com/SEEM-KFUPM)
+
+## Suggested profile fields
+
+When approved profiles are added, use the front matter above for name, role, image, interests, links, and a `reviewed` date. This keeps stale records discoverable during periodic content reviews.

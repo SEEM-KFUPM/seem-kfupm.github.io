@@ -1,0 +1,32 @@
+---
+title: "SeisReconNO"
+subtitle: "Neural operators for 3D seismic reconstruction"
+description: "Research context and public links for the SeisReconNO project"
+date: 2026-01-01
+categories: [Neural operators, Seismic reconstruction, Open source]
+image: ../assets/illustrations/seismic-reconstruction.svg
+image-alt: "Stylized seismic traces reconstructed across a data gap"
+---
+
+## About
+
+SeisReconNO provides reproducible material for *SeisReconNO: Leveraging a U-Net-Enhanced Fourier Neural Operator for 3D Seismic Reconstruction* [@traversa2026seisreconno]. The project addresses missing traces in 3D seismic data using a mesh-invariant reconstruction approach that combines spectral and spatial representations.
+
+::: {.callout-note}
+This page is based on the public project record. Expand it only with approved figures, contributors, benchmarks, and research context.
+:::
+
+## Why it matters
+
+Missing seismic traces degrade downstream imaging and interpretation. A research project page should explain that practical problem before directing technical readers to the implementation and paper.
+
+## Public links
+
+- [GitHub repository](https://github.com/SEEM-KFUPM/SeisReconNO)
+- [Publication DOI](https://doi.org/10.1016/j.aiig.2026.100212)
+- [Python/Quarto teaching example](../examples/python.qmd)
+
+## References
+
+::: {#refs}
+:::

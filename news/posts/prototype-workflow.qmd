@@ -1,0 +1,25 @@
+---
+title: "Prototype: a reviewable workflow for SEEM news"
+date: 2026-08-13
+author: "SEEM website prototype"
+description: "A sample post demonstrating the short Markdown workflow for research updates, events, releases, and outreach."
+categories: [Prototype, Open research]
+image: ../../assets/media/icon.png
+image-alt: "SEEM icon"
+toc: false
+---
+
+::: {.callout-warning}
+This is a prototype post, not an announcement.
+:::
+
+A normal update should include a clear title, date, one or two paragraphs, an approved visual when available, and links to the relevant paper, code, slides, or event.
+
+## A small, predictable contribution
+
+1. Copy this `.qmd` file and update the front matter.
+2. Write the short update and add descriptive alternative text to every image.
+3. Run `quarto preview`, check links and mobile layout, then open a pull request.
+4. Ask a colleague to review accuracy, spelling, institutional language, and media permissions.
+
+Quarto automatically adds the approved post to the news grid and RSS feed using its metadata.

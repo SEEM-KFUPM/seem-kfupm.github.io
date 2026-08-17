@@ -1,0 +1,133 @@
+---
+title: "Python notebook demo"
+subtitle: "A synthetic seismic reconstruction story"
+description: "Executable Python, figures, tables, citations, and cross-references in Quarto"
+author: "SEEM website prototype"
+date: 2026-08-13
+jupyter: python3
+code-fold: true
+code-summary: "Show the Python code"
+toc: true
+execute:
+  echo: true
+  output: true
+  cache: true
+---
+
+<p class="page-lead">This teaching page demonstrates why Quarto is valuable for a research group: narrative, executable Python, figures, computed tables, citations, and source code stay together.</p>
+
+::: {.callout-warning}
+## Synthetic teaching data
+
+This is a deterministic classroom example—not a research benchmark and not field data. It illustrates the publishing workflow, not the performance of SeisReconNO.
+:::
+
+## Experiment
+
+We create a small synthetic seismic gather, remove a band of traces, and reconstruct the missing values with linear interpolation. A real research page could replace this toy method with a reviewed workflow related to neural-operator reconstruction [@traversa2026seisreconno].
+
+```{python}
+#| label: setup
+#| include: false
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+rng = np.random.default_rng(20260813)
+samples, traces = 320, 64
+time = np.linspace(0.0, 1.2, samples)
+offset = np.linspace(-1.0, 1.0, traces)
+
+def ricker(t, center, frequency=24.0):
+    x = np.pi * frequency * (t - center)
+    return (1.0 - 2.0 * x**2) * np.exp(-x**2)
+
+clean = np.zeros((samples, traces))
+for event_time, curvature, amplitude in [(0.28, 0.11, 1.0), (0.58, -0.08, -0.75), (0.86, 0.06, 0.55)]:
+    for trace_id, x in enumerate(offset):
+        clean[:, trace_id] += amplitude * ricker(time, event_time + curvature * x**2)
+
+observed = clean + 0.08 * rng.standard_normal(clean.shape)
+gap = slice(27, 37)
+damaged = observed.copy()
+damaged[:, gap] = np.nan
+
+reconstructed = damaged.copy()
+known = np.r_[0:27, 37:traces]
+for sample_id in range(samples):
+    reconstructed[sample_id, :] = np.interp(np.arange(traces), known, observed[sample_id, known])
+```
+
+## Visual check
+
+```{python}
+#| label: fig-seismic-reconstruction
+#| fig-cap: "Synthetic seismic gather before removal, with a missing trace band, and after simple interpolation."
+#| fig-alt: "Three seismic heatmaps showing complete data, a white central gap, and an interpolated reconstruction"
+#| fig-width: 11
+#| fig-height: 4.2
+#| code-fold: true
+
+fig, axes = plt.subplots(1, 3, figsize=(11, 4.2), sharey=True)
+panels = [observed, damaged, reconstructed]
+titles = ["Synthetic observation", "Missing traces", "Interpolated baseline"]
+limit = np.nanpercentile(np.abs(observed), 99)
+
+for ax, panel, title in zip(axes, panels, titles):
+    ax.imshow(panel, cmap="seismic", aspect="auto", vmin=-limit, vmax=limit,
+              extent=[0, traces - 1, time[-1], time[0]])
+    ax.set_title(title)
+    ax.set_xlabel("Trace")
+axes[0].set_ylabel("Time (s)")
+fig.tight_layout()
+plt.show()
+```
+
+@fig-seismic-reconstruction is generated during rendering. Readers can expand the folded code, while the prose stays focused on interpretation.
+
+## Computed quality summary
+
+```{python}
+#| label: tbl-reconstruction-quality
+#| tbl-cap: "Error metrics inside the held-out trace band."
+#| echo: true
+
+truth = observed[:, gap]
+estimate = reconstructed[:, gap]
+rmse = float(np.sqrt(np.mean((truth - estimate) ** 2)))
+mae = float(np.mean(np.abs(truth - estimate)))
+signal_rms = float(np.sqrt(np.mean(truth**2)))
+
+metrics = pd.DataFrame({
+    "Metric": ["RMSE", "MAE", "Normalized RMSE"],
+    "Value": [rmse, mae, rmse / signal_rms],
+})
+metrics.style.format({"Value": "{:.3f}"}).hide(axis="index")
+```
+
+The values in @tbl-reconstruction-quality are computed from the same arrays shown in the figure, so a student cannot accidentally update one without the other.
+
+## What students can test {.tabset}
+
+### Analysis
+
+- Change the gap width or noise level.
+- Replace interpolation with another baseline.
+- Add an uncertainty or spectral-quality metric.
+
+### Communication
+
+- Improve the figure caption and alternative text.
+- Explain where a simple baseline fails.
+- Add a source to `publications.bib` and cite it with `[@key]`.
+
+### Reproducibility
+
+- Render locally and inspect `_freeze/`.
+- Confirm that the random seed keeps outputs stable.
+- Review the code and output together in a pull request.
+
+## References
+
+::: {#refs}
+:::

@@ -1,0 +1,20 @@
+---
+title: "People"
+description: "Researchers working across geoscience, sensing, and machine learning"
+listing:
+  contents: "profiles/*.qmd"
+  type: grid
+  grid-columns: 3
+  sort: "title"
+  sort-ui: false
+  filter-ui: false
+  fields: [image, title, subtitle, description, categories]
+---
+
+<p class="page-lead">SEEM brings together researchers working across geoscience, sensing, and machine learning.</p>
+
+::: {.placeholder-note}
+**Prototype content:** the profile below is deliberately fictional and visibly labeled. Replace it only with current, approved member information and photography.
+:::
+
+## Team profiles

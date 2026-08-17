@@ -1,0 +1,79 @@
+/*-- scss:defaults --*/
+
+$body-bg: #0d1c20;
+$body-color: #d9e7e3;
+$headings-color: #f1f7f4;
+$link-color: #72d9b4;
+$primary: #23b26c;
+$secondary: #e0c45b;
+$navbar-bg: #002f3d;
+$navbar-fg: #ffffff;
+$navbar-hl: #f2d65c;
+$border-color: #345158;
+$card-bg: #12282d;
+
+/*-- scss:rules --*/
+
+:root {
+  --seem-teal: #004d61;
+  --seem-green: #23b26c;
+  --seem-gold: #e0c45b;
+  --seem-gold-light: #f2d65c;
+  --seem-ink: #d9e7e3;
+  --seem-mist: #10262b;
+}
+
+.navbar {
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.34);
+}
+
+.section-band.soft {
+  background: var(--seem-mist);
+}
+
+.feature-card,
+.project-card,
+.contact-card {
+  background: #12282d;
+  border-color: #345158;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.project-card .tag,
+.status-chip {
+  background: #183d35;
+  color: #8be6bd;
+}
+
+.page-lead {
+  color: #b8cbc6;
+}
+
+.quarto-title-banner {
+  background: linear-gradient(110deg, #102f35, #2a2c1d);
+  border-bottom-color: #345158;
+}
+
+.quarto-grid-item {
+  background: #12282d;
+  border-color: #345158 !important;
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.2);
+}
+
+.quarto-grid-item .card-title {
+  color: #eef8f4;
+}
+
+.placeholder-note {
+  background: #37331d;
+  border-color: #756b34;
+}
+
+.nav-footer {
+  background: #082328;
+  color: #e4efeb;
+}
+
+.nav-footer a {
+  color: #ffffff;
+}
