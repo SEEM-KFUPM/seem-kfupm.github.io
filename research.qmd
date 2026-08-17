@@ -1,81 +1,152 @@
 ---
 title: "Research"
-description: "Four connected SEEM research themes"
+description: "SEEM research in seismic monitoring, sensing, scientific machine learning, inversion, and geological interpretation"
 ---
 
-<p class="page-lead">SEEM develops computational methods for sensing, monitoring, imaging, and interpreting the Earth. Our work links measurements, physical understanding, and reproducible computation.</p>
+<p class="page-lead">SEEM develops computational geoscience methods that connect field observations, wave physics, and machine learning. Our current portfolio spans seismic-event intelligence, fiber and borehole sensing, physics-informed operators, imaging and inversion, and transparent geological interpretation.</p>
 
-## Research themes
+## Research portfolio
 
 ::: {.feature-grid}
 ::: {.feature-card}
 <div class="feature-number">MONITORING</div>
 
-### Microseismicity
+### Seismic monitoring
 
-Methods for detecting, characterizing, and locating small seismic events, with attention to reliable decisions from noisy observations.
+Detection, characterization, and localization of small seismic events in noisy field environments.
 
-**Topics:** event detection · localization · monitoring
+**Topics:** microseismicity · moonquakes · induced seismicity
+:::
+
+::: {.feature-card}
+<div class="feature-number">IMAGING</div>
+
+### Imaging and interpretation
+
+Reconstruction, inversion, explainable AI, and geological modeling for subsurface understanding.
+
+**Topics:** FWI · reconstruction · xAI · geological sections
 :::
 
 ::: {.feature-card}
 <div class="feature-number">SENSING</div>
 
-### DAS & VSP
+### DAS & borehole geophysics
 
-Signal processing and learning methods for distributed acoustic sensing and vertical seismic profile data.
+Signal enhancement, inversion, and monitoring with distributed acoustic sensing and vertical seismic profiles.
 
-**Topics:** DAS · VSP · denoising
+**Topics:** DAS · VSP · denoising · lookahead inversion
 :::
 
 ::: {.feature-card}
-<div class="feature-number">COMPUTATION</div>
+<div class="feature-number">MODELING</div>
 
-### Scientific ML
+### Physics-informed AI
 
-Neural operators and physics-informed learning for geophysical inverse problems and reconstruction.
+Neural operators and physics-constrained learning for travel times, wavefields, and inverse problems.
 
-**Topics:** FNO · PINO · inverse problems
-:::
-
-::: {.feature-card}
-<div class="feature-number">INTERPRETATION</div>
-
-### Explainable geoscience
-
-Reconstruction and explainable-AI tools that support transparent interpretation of the subsurface.
-
-**Topics:** xAI · geological sections · uncertainty
+**Topics:** FNO · PINO · DeepONet · wave simulation
 :::
 :::
 
-## How the themes connect
+## Seismic monitoring and event intelligence
 
-```{mermaid}
-flowchart LR
-  A[Earth observations] --> B[Signal processing]
-  B --> C[Physical + learned models]
-  C --> D[Images and event estimates]
-  D --> E[Transparent interpretation]
-  E -. informs .-> A
-```
+SEEM studies how small seismic events can be detected, explained, and located rapidly enough to support scientific analysis and operational monitoring. The work ranges from terrestrial microseismicity and induced events to the sparse, noisy recordings collected during the Apollo missions.
 
-<!--
-Prototype implementation note retained for possible later integration:
-This diagram is rendered by Quarto from editable text. It is a useful pattern
-for students documenting a method without maintaining a separate drawing file.
+::: {.project-grid}
+::: {.project-card}
+### Detection under difficult noise
 
-::: {.callout-note}
-## Editorial status
-
-These themes are based on the public SEEM software footprint and the website
-prototype. Research leads should approve the terminology and add representative
-figures before launch.
+Current work combines learned detectors with interpretable evidence. The [Explainable PhaseNet project](projects/xai-phasenet.qmd) uses Grad-CAM and component-wise Shapley values to inspect P- and S-wave decisions and evaluate explanation-guided detection under white and field harmonic noise [@abdullin2026xai]. Related research explores synthetic low-magnitude earthquake generation for data-limited settings [@alsulami2025synthetic] and Fourier neural operators for detecting moonquakes in waveform and spectrogram representations [@alqadasi2026moonquake].
 :::
 
-## A reproducible example
+::: {.project-card}
+### Localization and monitoring design
 
-The [Python notebook demo](examples/python.qmd) shows how a technical result can
-live alongside the group website: executable code, a cross-referenced figure,
-a computed table, and a citation in one reviewable `.qmd` file.
--->
+Neural-operator surrogates are being developed for rapid source localization with conventional and DAS observations. The [FNO Localization](projects/fno-localization.qmd) and [U-PINO DAS Localization](projects/u-pino-das-loc.qmd) projects use Utah FORGE data to study fast, resolution-aware, and physics-guided location methods [@abdullin2025fno; @alqadasi2026upino]. This direction is complemented by research on sensor placement, shallow-borehole signal-to-noise performance, and induced-seismicity bounds [@dia2024sensors; @kalinichenko2025snr; @cao2024induced].
+:::
+:::
+
+## Imaging, inversion, and seismic reconstruction
+
+Imaging and inversion convert incomplete or indirect observations into subsurface models. SEEM combines physical constraints, learned priors, operator learning, and carefully designed benchmarks to improve robustness and reproducibility.
+
+::: {.project-grid}
+::: {.project-card}
+### Reconstruction of incomplete seismic data
+
+[SeisReconNO](projects/seisreconno.qmd) and [UFNO Seismic Reconstruction](projects/ufno-seismic-reconstruction.qmd) learn 3D reconstruction operators for random, trace-wise, and regular missing-data patterns. Their U-Net-enhanced Fourier architectures combine global spectral representations with spatial feature recovery and are evaluated across missing ratios and data resolutions [@traversa2026seisreconno; @traversa2025ufno].
+:::
+
+::: {.project-card}
+### Full-waveform and geophysical inversion
+
+Current work includes source-independent, physics-constrained full-waveform inversion with real-data applications [@song2026fwi], the GeoFWI benchmark data set for evaluating deep-learning inversion methods [@li2026geofwi], and physically guided unsupervised inversion of 1-D magnetotelluric models [@goyes2025magnetotelluric]. Together with VSP lookahead inversion, these studies emphasize transparent baselines, field evaluation, and reproducible comparisons.
+:::
+:::
+
+## DAS, VSP, and borehole geophysics
+
+Dense fiber-optic and borehole observations offer high spatial resolution but create demanding problems in noise suppression, calibration, inversion, and computational scale. SEEM develops methods that preserve useful seismic information while making these measurements more actionable.
+
+::: {.project-grid}
+::: {.project-card}
+### DAS signal enhancement
+
+The [Unsupervised DAS Denoising project](projects/unsupervised-das-denoising.qmd) suppresses strong DAS-VSP background noise without requiring clean labeled targets. Its attention-based deep-image-prior workflow combines patch construction, feature selection, unsupervised denoising, and reconstruction across synthetic and field surveys [@cui2025das; @cui2024das]. DAS arrival-time observations also form the measurement basis for physics-informed source localization in U-PINO.
+:::
+
+::: {.project-card}
+### VSP inversion and borehole monitoring
+
+The [PyVSP Deep Learning Lookahead project](projects/pyvsp-deep-learning-lookahead.qmd) investigates temporal convolutional networks for estimating velocity ahead of the drill bit. Its reproducibility pipeline includes synthetic model generation, blind finite-difference tests, Volve field examples, ablation studies, and bandwidth and phase-sensitivity analyses [@almarzooq2026vsp]. Broader borehole research includes monitoring design for CO2 sequestration and quantitative signal-to-noise assessment [@eisner2025co2; @kalinichenko2025snr].
+:::
+:::
+
+## Physics-informed learning and neural operators
+
+SEEM uses physical equations as model structure, training constraints, or validation criteria. The goal is not only faster prediction, but learned models that remain useful across grids, velocity models, acquisition geometries, and data resolutions.
+
+::: {.project-grid}
+::: {.project-card}
+### Travel-time and eikonal operators
+
+Research in this area includes physics-informed Fourier neural operators, Fourier-DeepONet, and generalized operator-learning solvers for travel-time fields and the eikonal equation [@song2024pino; @liu2026fourierdeeponet; @archibong2026eikonal]. Hard-constrained measurements provide another route to stable neural traveltime tomography [@taufik2024tomography]. These solvers support source localization, tomography, and survey design.
+:::
+
+::: {.project-card}
+### Wave simulation and learned models
+
+SEEM investigates training strategies and architectures that improve accuracy and convergence for geophysical forward problems. Recent work covers enriched DeepONet representations, faster-converging physics-informed neural networks for seismic wave simulation, and high-resolution eikonal tomography [@haghighat2024endeeponet; @zou2025pinn; @cui2026lithosphere].
+:::
+:::
+
+## Geological interpretation and reservoir intelligence
+
+SEEM also develops tools that connect computational predictions to geological reasoning. This includes explicit geological representations, interpretable machine learning, and integrated petrophysical and geological constraints.
+
+::: {.project-grid}
+
+::: {.project-card}
+### Conversational geological modeling
+
+[GeoSIRR](projects/geosirr.qmd) translates geological narratives into a domain-specific language for coordinate-based cross-sections. The workflow validates descriptions and generated topology, visualizes sections, supports conversational refinement, and answers questions using the explicit section representation [@anikiev2026geosirr]. This makes the intermediate geology inspectable instead of treating an AI-generated image as the final model.
+:::
+
+::: {.project-card}
+### Reservoir and interpretable models
+
+Research on subsurface characterization combines rock-physics templates, machine learning, petrophysical constraints, and automated model selection for shale sweet-spot delineation and property prediction [@davy2026shale; @davy2024petrophysical; @davy2024autodl]. Explainability work in seismic detection provides a complementary view of how model evidence can be inspected before predictions are used in scientific or operational decisions [@abdullin2026xai].
+:::
+:::
+
+## Open and reproducible research
+
+Public code and traceable research artifacts are part of the group's research practice. Project pages connect the scientific question to repositories, papers, data sources, and reproduction instructions; the [AI Coding Agents Workshop](projects/ai-coding-agents-workshop.qmd) extends these practices into researcher training.
+
+[Browse public projects](projects/index.qmd){.btn .btn-primary} [Explore publications](publications/index.qmd){.btn .btn-outline-primary} [SEEM on GitHub](https://github.com/SEEM-KFUPM){.btn .btn-outline-primary}
+
+## References
+
+::: {#refs}
+:::

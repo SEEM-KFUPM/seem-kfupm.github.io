@@ -23,6 +23,8 @@ and this project adheres to a simple date-based versioning.
 - Reworked the README as concise production-site documentation and moved authoring guidance to `CONTRIBUTING.md`.
 - Hid prototype notebook, sample-news, editorial, and recruitment content from the production render while retaining the options in source.
 - Replaced homepage prototype cards with public projects and limited the build to visitor-facing website pages.
+- Updated the News page and navigation with an “updates coming soon” placeholder.
+- Rebuilt the Research and homepage themes around Monitoring, Imaging, Sensing, and Modeling, supported by current projects and publications.
 
 ## 2026-08-16
 

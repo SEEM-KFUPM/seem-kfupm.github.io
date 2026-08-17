@@ -30,42 +30,42 @@ description: "Smart Earth Exploration and Monitoring at KFUPM"
 
 ::: {.section-band}
 ::: {.section-intro}
-## Four connected research themes
+## Research topics
 
 We combine practical Earth observations with reproducible computational research, from field-scale monitoring to transparent geological interpretation.
 :::
 
 ::: {.feature-grid}
 ::: {.feature-card}
-<div class="feature-number">01 · SIGNAL</div>
+<div class="feature-number">MONITORING</div>
 
-### Monitoring & microseismicity
+### Seismic event intelligence
 
-Detection, characterization, and localization of seismic events.
+Detection, characterization, and localization of seismic and microseismic events.
 :::
 
 ::: {.feature-card}
-<div class="feature-number">02 · SENSING</div>
+<div class="feature-number">IMAGING</div>
 
-### DAS & VSP analysis
+### Reconstruction & inversion
+
+Methods for recovering seismic data and estimating subsurface properties.
+:::
+
+::: {.feature-card}
+<div class="feature-number">SENSING</div>
+
+### DAS & VSP
 
 Signal processing and deep learning for distributed acoustic sensing observations.
 :::
 
 ::: {.feature-card}
-<div class="feature-number">03 · COMPUTATION</div>
+<div class="feature-number">MODELING</div>
 
-### Scientific machine learning
+### Physics & geology
 
-Neural operators and physics-informed learning for inverse problems and reconstruction.
-:::
-
-::: {.feature-card}
-<div class="feature-number">04 · INSIGHT</div>
-
-### Geological interpretation
-
-Explainable AI and reconstruction tools for transparent subsurface interpretation.
+Physics-informed learning and explicit geological models for subsurface understanding.
 :::
 :::
 :::
