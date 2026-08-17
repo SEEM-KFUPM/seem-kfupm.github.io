@@ -12,13 +12,7 @@ listing:
   fields: [image, title, description, categories, date]
 ---
 
-<p class="page-lead">Every public, visitor-facing repository in the SEEM-KFUPM GitHub organization is represented here. GitHub remains the technical source of truth for code, issues, licenses, and upstream provenance.</p>
-
-::: {.callout-note}
-## Repository scope
-
-The catalog was reviewed against the public GitHub organization on 17 August 2026. The administrative `.github` profile repository is excluded. Forked research repositories are included and identified on their detail pages.
-:::
+<p class="page-lead">We list here public repositories in the SEEM-KFUPM GitHub organization. GitHub remains the technical source of truth for code, issues, licenses, and upstream provenance.</p>
 
 ## Public projects
 

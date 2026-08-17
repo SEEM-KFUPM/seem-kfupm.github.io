@@ -5,13 +5,7 @@ nocite: |
   @*
 ---
 
-<p class="page-lead">This bibliography combines papers linked directly to SEEM's public software with recent outputs from the public ORCID records of current group members. DOI metadata was checked against Crossref on 17 August 2026.</p>
-
-::: {.callout-note}
-## Scope
-
-The list prioritizes peer-reviewed work from 2024–2026, adds the group's 2023 microseismic machine-learning review, and includes repository-linked proceedings, a discussion preprint, and an accepted/in-press paper. The status is stated when a record is not yet a final journal article.
-:::
+<p class="page-lead">This bibliography combines papers linked directly to SEEM's public software with recent outputs from the public ORCID records of current group members.</p>
 
 ## Publications linked to public projects
 
@@ -46,7 +40,7 @@ The list prioritizes peer-reviewed work from 2024–2026, adds the group's 2023 
 - Faster-converging physics-informed seismic wave simulation [@zou2025pinn]
 - Physically guided unsupervised 1-D magnetotelluric inversion [@goyes2025magnetotelluric]
 
-### 2024 and selected review
+### 2024 and before
 
 - Sensor placement for uncertainty reduction in moment-tensor inversion [@dia2024sensors]
 - Petrophysical constraints for AI-driven unconventional-reservoir predictions [@davy2024petrophysical]

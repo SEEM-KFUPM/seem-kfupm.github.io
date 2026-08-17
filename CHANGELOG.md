@@ -26,6 +26,7 @@ and this project adheres to a simple date-based versioning.
 - Updated the News page and navigation with an “updates coming soon” placeholder.
 - Rebuilt the Research and homepage themes around Monitoring, Imaging, Sensing, and Modeling, supported by current projects and publications.
 - Expanded homepage selected work to one representative project for each research topic.
+- Organized the People page into senior researchers, students, and alumni, with verified public profile links and a hidden postdocs placeholder.
 
 ## 2026-08-16
 
