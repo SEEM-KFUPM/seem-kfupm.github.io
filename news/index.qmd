@@ -1,18 +1,25 @@
 ---
 title: "News"
 description: "Updates from SEEM"
-listing:
-  contents: "posts/*.qmd"
-  type: grid
-  grid-columns: 3
-  sort: "date desc"
-  sort-ui: false
-  filter-ui: true
-  fields: [image, title, description, categories, author, date]
-  feed: true
+# News listing retained for activation with the first public post:
+# listing:
+#   contents: "posts/*.qmd"
+#   type: grid
+#   grid-columns: 3
+#   sort: "date desc"
+#   sort-ui: false
+#   filter-ui: true
+#   fields: [image, title, description, categories, author, date]
+#   feed: true
 ---
 
-<p class="page-lead">Short, dated updates can record presentations, releases, workshops, visitors, and student achievements.</p>
+<p class="page-lead">News, research releases, workshops, presentations, visitors, and student achievements from SEEM will be shared here.</p>
+
+::: {.callout-note appearance="simple"}
+## Updates coming soon
+
+The first public SEEM updates are being prepared. In the meantime, explore our [public projects](../projects/index.qmd), browse recent [publications](../publications/index.qmd), or follow [SEEM-KFUPM on GitHub](https://github.com/SEEM-KFUPM).
+:::
 
 <!--
 Prototype editorial note retained for possible later integration:
@@ -22,4 +29,6 @@ The draft sample demonstrates the editorial workflow and is not a public announc
 :::
 -->
 
+<!-- Listing heading retained for activation with the first public post:
 ## Updates from SEEM
+-->

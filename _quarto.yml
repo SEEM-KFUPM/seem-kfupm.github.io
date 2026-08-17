@@ -6,10 +6,11 @@ project:
     - "people/**/*.qmd"
     - "projects/**/*.qmd"
     - "publications/**/*.qmd"
+    - "news/index.qmd"
     # Prototype pages remain in source for later integration but are not
     # rendered, indexed, or published with the production website.
     - "!examples/**"
-    - "!news/**"
+    - "!news/posts/**"
   resources:
     - assets/**
 
@@ -45,10 +46,10 @@ website:
           # Prototype option retained for later integration:
           # - text: Python notebook demo
           #   href: examples/python.qmd
-      # News remains available in source and can return to the navbar when the
-      # first public announcement replaces the draft workflow example.
-      # - text: News
-      #   href: news/index.qmd
+      # The prototype post remains disabled; the News page shows a public
+      # placeholder until the first reviewed announcement is available.
+      - text: News
+        href: news/index.qmd
       - text: Join / Contact
         href: join.qmd
     right:
