@@ -64,6 +64,12 @@ $card-bg: #12282d;
   color: #eef8f4;
 }
 
+#listing-team-profiles .thumbnail-image,
+.member-profile-portrait {
+  border-color: #345158;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.35);
+}
+
 .placeholder-note {
   background: #37331d;
   border-color: #756b34;

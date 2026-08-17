@@ -275,6 +275,57 @@ button:focus-visible {
   color: var(--seem-teal);
 }
 
+#listing-team-profiles .card-img-top {
+  align-items: center;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1.5rem 1.5rem 0.35rem;
+}
+
+#listing-team-profiles .thumbnail-image {
+  aspect-ratio: 1;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 7px 20px rgba(0, 62, 81, 0.18);
+  height: 10rem !important;
+  object-fit: cover;
+  object-position: center;
+  width: 10rem !important;
+}
+
+.member-profile-intro {
+  align-items: center;
+  display: grid;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  grid-template-columns: minmax(10rem, 13rem) minmax(0, 1fr);
+  margin: 0.75rem 0 2.5rem;
+}
+
+.member-profile-portrait-wrap {
+  margin: 0;
+}
+
+.member-profile-portrait-wrap p {
+  margin: 0;
+}
+
+.member-profile-portrait {
+  aspect-ratio: 1;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 12px 30px rgba(0, 62, 81, 0.2);
+  display: block;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+.member-profile-summary p:last-child {
+  margin-bottom: 0;
+}
+
 .callout {
   border-radius: 0.75rem;
 }
@@ -353,5 +404,15 @@ button:focus-visible {
 
   .hero {
     margin-top: -1rem;
+  }
+
+  .member-profile-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .member-profile-portrait-wrap {
+    justify-self: center;
+    max-width: 10rem;
+    width: 100%;
   }
 }
