@@ -18,7 +18,7 @@ description: "Smart Earth Exploration and Monitoring at KFUPM"
 
 ::: {.hero-actions}
 [Explore our research](research.qmd){.btn .btn-light}
-[View public software](projects/index.qmd){.btn .btn-outline-light}
+[Explore our projects](projects/index.qmd){.btn .btn-outline-light}
 :::
 :::
 
@@ -81,6 +81,19 @@ The website explains why each result matters; GitHub remains the technical sourc
 ::: {.project-card}
 <!-- Prototype status option retained: <span class="status-chip">Prototype project card</span> -->
 
+### Explainable PhaseNet
+
+Grad-CAM and SHAP tools for interpreting PhaseNet and improving microseismic event detection under strong noise.
+
+<span class="tag">Explainable AI</span><span class="tag">Event detection</span><span class="tag">Open source</span>
+
+::: {.card-actions}
+[Project story](projects/xai-phasenet.qmd){.btn .btn-sm .btn-primary}
+[GitHub](https://github.com/SEEM-KFUPM/xAI_PhaseNet){.btn .btn-sm .btn-outline-primary}
+:::
+:::
+
+::: {.project-card}
 ### SeisReconNO
 
 A U-Net-enhanced Fourier neural operator approach for reconstructing missing traces in 3D seismic data.
@@ -94,15 +107,15 @@ A U-Net-enhanced Fourier neural operator approach for reconstructing missing tra
 :::
 
 ::: {.project-card}
-### Explainable PhaseNet
+### Unsupervised DAS Denoising
 
-Grad-CAM and SHAP tools for interpreting PhaseNet and improving microseismic event detection under strong noise.
+Ground-truth-free suppression of strong background noise in DAS-VSP data using an attention-based deep image prior.
 
-<span class="tag">Explainable AI</span><span class="tag">Event detection</span><span class="tag">Open source</span>
+<span class="tag">DAS & VSP</span><span class="tag">Denoising</span><span class="tag">Open source</span>
 
 ::: {.card-actions}
-[Project story](projects/xai-phasenet.qmd){.btn .btn-sm .btn-primary}
-[GitHub](https://github.com/SEEM-KFUPM/xAI_PhaseNet){.btn .btn-sm .btn-outline-primary}
+[Project story](projects/unsupervised-das-denoising.qmd){.btn .btn-sm .btn-primary}
+[GitHub](https://github.com/SEEM-KFUPM/Unsupervised-DAS-Denoising){.btn .btn-sm .btn-outline-primary}
 :::
 :::
 
