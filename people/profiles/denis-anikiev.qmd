@@ -5,6 +5,7 @@ description: "Computational geophysicist applying AI and machine learning to geo
 image: ../../assets/people/denis-anikiev.jpg
 image-alt: "Portrait of Dr. Denis Anikiev"
 categories: [Faculty, Computational geophysics, Data Analytics, AI]
+order: 2
 reviewed: 2026-08-17
 toc: false
 listing:

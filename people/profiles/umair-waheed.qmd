@@ -5,6 +5,7 @@ description: "Computational geoscientist working on physics- and data-driven mac
 image: ../../assets/people/umair-waheed.jpg
 image-alt: "Portrait of Dr. Umair bin Waheed"
 categories: [Faculty, Computational geophysics, AI]
+order: 1
 reviewed: 2026-08-17
 toc: false
 listing:

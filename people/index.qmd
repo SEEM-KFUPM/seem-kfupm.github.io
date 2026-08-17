@@ -6,7 +6,9 @@ listing:
   contents: "profiles/*.qmd"
   type: grid
   grid-columns: 3
-  sort: "title"
+  sort:
+    - "order"
+    - "title"
   sort-ui: false
   filter-ui: false
   fields: [image, title, subtitle, description, categories]
