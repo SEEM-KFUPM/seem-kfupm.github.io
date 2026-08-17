@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Seismic event localization</title>
+  <desc id="desc">Wavefronts from a subsurface event reach a line of sensors above a layered Earth.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#003e51"/><stop offset="1" stop-color="#00705c"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M0 185h1200M0 325c220-75 360 65 600 0s390-30 600 10M0 485c220-70 420 60 660 0s360-35 540 5" fill="none" stroke="#d9f3ea" stroke-width="7" opacity=".7"/>
+  <g fill="#dac961"><rect x="170" y="125" width="28" height="60" rx="6"/><rect x="395" y="125" width="28" height="60" rx="6"/><rect x="620" y="125" width="28" height="60" rx="6"/><rect x="845" y="125" width="28" height="60" rx="6"/><rect x="1070" y="125" width="28" height="60" rx="6"/></g>
+  <g fill="none" stroke="#dac961" stroke-width="8" opacity=".8"><circle cx="610" cy="505" r="70"/><circle cx="610" cy="505" r="145"/><circle cx="610" cy="505" r="220"/></g>
+  <circle cx="610" cy="505" r="25" fill="#f2d65c"/><path d="m610 465 12 27 29 3-22 20 7 29-26-15-26 15 7-29-22-20 29-3z" fill="#003e51"/>
+</svg>

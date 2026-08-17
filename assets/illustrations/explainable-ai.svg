@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Explainable seismic artificial intelligence</title>
+  <desc id="desc">A neural network highlights the important P- and S-wave regions of a seismic waveform.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#003e51"/><stop offset="1" stop-color="#00705c"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/><rect x="70" y="100" width="1060" height="475" rx="30" fill="#002d3b" opacity=".6"/>
+  <g opacity=".45"><rect x="420" y="100" width="145" height="475" fill="#dac961"/><rect x="765" y="100" width="170" height="475" fill="#64c7aa"/></g>
+  <path d="M95 340h170l18-22 18 52 22-110 25 190 24-270 26 325 27-250 28 130 30-65 30 35 50-15 35-90 30 205 27-155 29 70 35-25 65-5 30-45 30 95 30-65 34 20h145" fill="none" stroke="#f4fbf8" stroke-width="8" stroke-linejoin="round"/>
+  <g fill="#f2d65c" font-family="sans-serif" font-weight="700" font-size="52"><text x="458" y="175">P</text><text x="820" y="175">S</text></g>
+  <g fill="#dac961"><circle cx="245" cy="135" r="18"/><circle cx="310" cy="135" r="18"/><circle cx="375" cy="135" r="18"/></g><g stroke="#dac961" stroke-width="6"><path d="M245 135 310 135l65 0M310 135l70 70M245 135l-45 70"/></g>
+</svg>

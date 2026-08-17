@@ -1,0 +1,35 @@
+---
+title: "PyVSP Deep Learning Lookahead"
+subtitle: "Ahead-of-the-bit VSP velocity inversion with temporal convolutional networks"
+description: "Research context and public links for the PyVSP lookahead inversion pipeline"
+date: 2026-08-01
+categories: [Vertical seismic profiling, Inversion, Deep learning]
+image: ../assets/illustrations/vsp-inversion.svg
+image-alt: "Borehole sensors and a predicted subsurface velocity profile"
+---
+
+## About
+
+PyVSP Deep Learning Lookahead is the reproducibility pipeline for temporal-convolutional-network inversion of vertical seismic profiling data [@almarzooq2026vsp]. It covers synthetic model generation, hyperparameter optimization, training, ablation studies, blind tests, field inference, robustness analysis, and publication figures and tables.
+
+## Why it matters
+
+Estimating velocity ahead of the drill bit can reduce subsurface uncertainty before a formation is reached. The project evaluates data-driven lookahead inversion on deterministic finite-difference simulations and Volve field data, while retaining conventional baselines.
+
+## Key result and audience
+
+The repository turns the full manuscript workflow into a configurable pipeline and includes repeatability, bandwidth, and phase-sensitivity experiments. It is aimed at VSP researchers, seismic inversion practitioners, and teams reviewing reproducible machine-learning studies.
+
+## Public links
+
+- [GitHub repository](https://github.com/SEEM-KFUPM/PyVSP_Deep_Learning_Lookahead)
+- [Publication DOI](https://doi.org/10.1190/GEO-2025-0207)
+
+::: {.callout-note}
+This public SEEM-KFUPM repository is a fork of the manuscript's reproducibility repository. No software license is declared in the GitHub metadata; consult the repository before reuse.
+:::
+
+## References
+
+::: {#refs}
+:::

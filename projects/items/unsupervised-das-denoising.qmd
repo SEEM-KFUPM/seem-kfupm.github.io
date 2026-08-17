@@ -1,0 +1,15 @@
+---
+title: "Unsupervised DAS Denoising"
+description: "Ground-truth-free background-noise suppression for DAS-VSP data using an attention-based deep image prior."
+date: 2025-01-01
+categories: [Distributed acoustic sensing, Denoising, Unsupervised learning]
+image: ../../assets/illustrations/das-processing.svg
+image-alt: "Noisy DAS traces transformed into coherent seismic arrivals"
+status: Published
+reviewed: 2026-08-17
+toc: false
+---
+
+This listing record links to the complete [Unsupervised DAS Denoising project story](../unsupervised-das-denoising.qmd).
+
+[Project story](../unsupervised-das-denoising.qmd){.btn .btn-primary} [GitHub repository](https://github.com/SEEM-KFUPM/Unsupervised-DAS-Denoising){.btn .btn-outline-primary}

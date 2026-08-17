@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Conversational geological modeling</title>
+  <desc id="desc">A geological cross-section with folded layers, a fault, and a text prompt.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#003e51"/><stop offset="1" stop-color="#00705c"/></linearGradient><clipPath id="earth"><path d="M70 175h1060v425H70z"/></clipPath></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g clip-path="url(#earth)" fill="none" stroke-linecap="round" stroke-width="55"><path d="M30 310q250-160 510 0t630 0" stroke="#d9f3ea"/><path d="M20 405q260-160 530 0t650 0" stroke="#86cdb5"/><path d="M10 500q270-160 560 0t670 0" stroke="#dac961"/><path d="M0 595q300-150 610 0t650 0" stroke="#457d72"/></g>
+  <path d="M720 185 565 600" stroke="#f2d65c" stroke-width="14"/>
+  <rect x="105" y="65" width="470" height="150" rx="28" fill="#fff" opacity=".96"/><path d="m220 215-44 52 88-52" fill="#fff"/><g fill="#55706a"><rect x="155" y="110" width="340" height="13" rx="6"/><rect x="155" y="150" width="275" height="13" rx="6"/></g>
+</svg>

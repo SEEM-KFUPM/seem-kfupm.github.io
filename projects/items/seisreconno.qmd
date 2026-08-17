@@ -1,12 +1,12 @@
 ---
 title: "SeisReconNO"
 description: "Reproducible material for a U-Net-enhanced Fourier neural operator for 3D seismic reconstruction."
-date: 2026-01-01
+date: 2026-03-15
 categories: [Neural operators, Seismic reconstruction, Open source]
 image: ../../assets/illustrations/seismic-reconstruction.svg
 image-alt: "Stylized seismic traces reconstructed across a data gap"
 status: Active
-reviewed: 2026-08-13
+reviewed: 2026-08-17
 toc: false
 ---
 

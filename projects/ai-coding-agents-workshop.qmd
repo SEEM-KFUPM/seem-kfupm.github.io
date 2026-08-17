@@ -1,0 +1,34 @@
+---
+title: "AI Coding Agents Workshop"
+subtitle: "From research idea to reproducible mini-project"
+description: "Public teaching materials for critical, reproducible use of coding agents in research"
+date: 2026-04-22
+categories: [Training, Reproducibility, Research software]
+image: ../assets/illustrations/research-workshop.svg
+image-alt: "Presentation, code, and collaborators in a research coding workshop"
+---
+
+## About
+
+The AI Coding Agents Workshop is a public, hands-on curriculum for researchers who want to use coding agents while retaining scientific judgment, clear project structure, and reproducible Git practices.
+
+## Who it is for
+
+The material supports workshop participants, research students, instructors, and research-software teams. It includes a slide deck, local setup guides, prompt patterns, reproducibility notes, demonstrations, exercises, and a reusable project template.
+
+## What it provides
+
+- A guided path from setup to independent exercises
+- Three geoscience-oriented exercises with explicit inputs and outputs
+- Templates for small research coding projects
+- Practical guidance for reviewing agent-generated work
+
+## Public links
+
+- [GitHub repository](https://github.com/SEEM-KFUPM/AI-Coding-Agents-Workshop)
+- [Local setup guide](https://github.com/SEEM-KFUPM/AI-Coding-Agents-Workshop/blob/main/docs/setup/local-setup.md)
+- [Prompt cheat sheet](https://github.com/SEEM-KFUPM/AI-Coding-Agents-Workshop/blob/main/docs/agents/prompt-cheatsheet.md)
+
+::: {.callout-note}
+This is an original SEEM-KFUPM repository and is distributed under the MIT License.
+:::

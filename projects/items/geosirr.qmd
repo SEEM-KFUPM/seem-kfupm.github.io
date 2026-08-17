@@ -1,0 +1,15 @@
+---
+title: "GeoSIRR"
+description: "Conversational geological cross-section generation, validation, refinement, visualization, and question answering."
+date: 2026-03-10
+categories: [Geological modeling, Large language models, Research software]
+image: ../../assets/illustrations/geological-modeling.svg
+image-alt: "Geological cross-section generated from a conversational prompt"
+status: Active
+reviewed: 2026-08-17
+toc: false
+---
+
+This listing record links to the complete [GeoSIRR project story](../geosirr.qmd).
+
+[Project story](../geosirr.qmd){.btn .btn-primary} [GitHub repository](https://github.com/SEEM-KFUPM/GeoSIRR){.btn .btn-outline-primary}

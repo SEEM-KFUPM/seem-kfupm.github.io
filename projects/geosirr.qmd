@@ -1,0 +1,36 @@
+---
+title: "GeoSIRR"
+subtitle: "Conversational geological cross-section modeling"
+description: "Research context and public links for GeoSIRR"
+date: 2026-03-10
+categories: [Geological modeling, Large language models, Research software]
+image: ../assets/illustrations/geological-modeling.svg
+image-alt: "Geological cross-section generated from a conversational prompt"
+---
+
+## About
+
+GeoSIRR—Geological Section Interpretation, Reconstruction & Refinement—is a Python application that translates geological narratives into a domain-specific language and coordinate-based cross-sections [@anikiev2026geosirr]. Users can generate, validate, visualize, refine, and query a section through a command-line conversation.
+
+## Why it matters
+
+Turning an informal geological description into consistent geometry is slow and requires both domain and drafting expertise. GeoSIRR makes the intermediate representation explicit: the generated geometry can be inspected, validated, revised, and reproduced rather than remaining hidden in an image-generation system.
+
+## Key capabilities and audience
+
+GeoSIRR combines completeness checks, format and topology validation, Matplotlib visualization, iterative refinement, and section-aware question answering. It is designed for geologists, educators, subsurface modelers, and researchers evaluating large language models in scientific workflows.
+
+## Public links
+
+- [GitHub repository](https://github.com/SEEM-KFUPM/GeoSIRR)
+- [Discussion paper DOI](https://doi.org/10.5194/egusphere-2025-6545)
+- [Version 1.0.0 on Zenodo](https://doi.org/10.5281/zenodo.18097054)
+
+::: {.callout-note}
+This public SEEM-KFUPM repository is a fork of the maintained upstream project and is licensed under GPL-3.0.
+:::
+
+## References
+
+::: {#refs}
+:::

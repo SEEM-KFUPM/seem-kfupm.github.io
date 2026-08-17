@@ -30,7 +30,7 @@ website:
         href: publications/index.qmd
       - text: Projects & Software
         menu:
-          - text: Selected projects
+          - text: Public projects
             href: projects/index.qmd
           - text: Python notebook demo
             href: examples/python.qmd

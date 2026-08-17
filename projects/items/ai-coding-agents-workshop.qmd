@@ -1,0 +1,15 @@
+---
+title: "AI Coding Agents Workshop"
+description: "Hands-on materials for turning research ideas into small, reproducible coding projects with AI agents."
+date: 2026-04-22
+categories: [Training, Reproducibility, Research software]
+image: ../../assets/illustrations/research-workshop.svg
+image-alt: "Presentation, code, and collaborators in a research coding workshop"
+status: Active
+reviewed: 2026-08-17
+toc: false
+---
+
+This listing record links to the complete [AI Coding Agents Workshop project story](../ai-coding-agents-workshop.qmd).
+
+[Project story](../ai-coding-agents-workshop.qmd){.btn .btn-primary} [GitHub repository](https://github.com/SEEM-KFUPM/AI-Coding-Agents-Workshop){.btn .btn-outline-primary}

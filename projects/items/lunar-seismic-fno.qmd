@@ -1,0 +1,15 @@
+---
+title: "Lunar Seismic FNO"
+description: "Reproducible 1D and 2D Fourier-neural-operator pipelines for detecting moonquakes in Apollo seismic records."
+date: 2026-03-01
+categories: [Neural operators, Planetary seismology, Event detection]
+image: ../../assets/illustrations/seismic-localization.svg
+image-alt: "Seismic wavefronts radiating from a subsurface event"
+status: Published
+reviewed: 2026-08-17
+toc: false
+---
+
+This listing record links to the complete [Lunar Seismic FNO project story](../lunar-seismic-fno.qmd).
+
+[Project story](../lunar-seismic-fno.qmd){.btn .btn-primary} [GitHub repository](https://github.com/SEEM-KFUPM/lunar-seismic-fno){.btn .btn-outline-primary}
