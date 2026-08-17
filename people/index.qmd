@@ -14,7 +14,7 @@ listing:
   fields: [image, title, subtitle, description, categories]
 ---
 
-<p class="page-lead">SEEM brings together researchers working across geoscience, sensing, and machine learning.</p>
+<p class="page-lead">SEEM brings together researchers, postdocs and students working across geoscience, AI, machine learning and engineering.</p>
 
 ## Team profiles
 
