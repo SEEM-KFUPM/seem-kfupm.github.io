@@ -13,12 +13,14 @@ and this project adheres to a simple date-based versioning.
 - Added linked author metadata and stable member identifiers for associating posts with profiles.
 - Added cards and detail pages for public, visitor-facing SEEM-KFUPM repositories, with project-specific illustrations and provenance notes.
 - Expanded the bibliography to project-linked and recent SEEM-member publications.
+- Added contributor guidance for content, attribution, publications, reproducibility, and review.
 
 ### Changed
 
 - Made Quarto's full-width page layout the site-wide default so inner-page content uses the same wider layout as the homepage.
 - Improved People cards with circular portraits and explicit profile ordering.
 - Updated the projects catalog and navigation to represent the complete public repository collection.
+- Reworked the README as concise production-site documentation and moved authoring guidance to `CONTRIBUTING.md`.
 
 ## 2026-08-16
 
