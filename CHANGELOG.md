@@ -21,6 +21,8 @@ and this project adheres to a simple date-based versioning.
 - Improved People cards with circular portraits and explicit profile ordering.
 - Updated the projects catalog and navigation to represent the complete public repository collection.
 - Reworked the README as concise production-site documentation and moved authoring guidance to `CONTRIBUTING.md`.
+- Hid prototype notebook, sample-news, editorial, and recruitment content from the production render while retaining the options in source.
+- Replaced homepage prototype cards with public projects and limited the build to visitor-facing website pages.
 
 ## 2026-08-16
 

@@ -1,4 +1,6 @@
 ---
+# This file is intentionally disabled. Rename it to `.qmd` when a public news
+# workflow is ready to return to the rendered website.
 title: "Prototype: a reviewable workflow for SEEM news"
 date: 2026-08-13
 author: "SEEM website prototype"
@@ -8,6 +10,7 @@ categories: [Prototype, Open research]
 image: ../../assets/media/icon.png
 image-alt: "SEEM icon"
 toc: false
+draft: true
 ---
 
 ::: {.callout-warning}

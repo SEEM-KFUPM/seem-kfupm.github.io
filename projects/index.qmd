@@ -25,6 +25,12 @@ The catalog was reviewed against the public GitHub organization on 17 August 202
 ::: {#public-projects}
 :::
 
+<!--
+Prototype publishing section retained for possible later integration:
+
 ## Reproducible publishing
 
-Quarto can turn an analysis into a page without copying plots by hand. Open the [synthetic seismic Python example](../examples/python.qmd) to inspect executable code, figure cross-references, tabbed explanations, and computed output.
+Quarto can turn an analysis into a page without copying plots by hand. Open the
+[synthetic seismic Python example](../examples/python.qmd) to inspect executable
+code, figure cross-references, tabbed explanations, and computed output.
+-->

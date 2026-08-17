@@ -14,8 +14,12 @@ listing:
 
 <p class="page-lead">Short, dated updates can record presentations, releases, workshops, visitors, and student achievements.</p>
 
+<!--
+Prototype editorial note retained for possible later integration:
+
 ::: {.placeholder-note}
-**Prototype section:** the sample below demonstrates the editorial workflow and is not a public announcement.
+The draft sample demonstrates the editorial workflow and is not a public announcement.
 :::
+-->
 
 ## Updates from SEEM

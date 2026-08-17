@@ -24,7 +24,7 @@ The project trains on open 3D field cubes with random, trace-wise, and regular m
 
 - [GitHub repository](https://github.com/SEEM-KFUPM/SeisReconNO)
 - [Publication DOI](https://doi.org/10.1016/j.aiig.2026.100212)
-- [Python/Quarto teaching example](../examples/python.qmd)
+<!-- Prototype option retained: [Python/Quarto teaching example](../examples/python.qmd) -->
 
 ::: {.callout-note}
 This is an original SEEM-KFUPM repository and is distributed under the MIT License.

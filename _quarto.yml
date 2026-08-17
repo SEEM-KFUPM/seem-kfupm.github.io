@@ -1,6 +1,15 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "people/**/*.qmd"
+    - "projects/**/*.qmd"
+    - "publications/**/*.qmd"
+    # Prototype pages remain in source for later integration but are not
+    # rendered, indexed, or published with the production website.
+    - "!examples/**"
+    - "!news/**"
   resources:
     - assets/**
 
@@ -8,6 +17,7 @@ website:
   title: "SEEM · KFUPM"
   site-url: https://seem-kfupm.github.io
   description: "Smart Earth Exploration and Monitoring research at KFUPM"
+  draft-mode: gone
   favicon: assets/media/icon.png
   open-graph: true
   twitter-card: true
@@ -32,10 +42,13 @@ website:
         menu:
           - text: Public projects
             href: projects/index.qmd
-          - text: Python notebook demo
-            href: examples/python.qmd
-      - text: News
-        href: news/index.qmd
+          # Prototype option retained for later integration:
+          # - text: Python notebook demo
+          #   href: examples/python.qmd
+      # News remains available in source and can return to the navbar when the
+      # first public announcement replaces the draft workflow example.
+      # - text: News
+      #   href: news/index.qmd
       - text: Join / Contact
         href: join.qmd
     right:

@@ -4,6 +4,7 @@ subtitle: "A synthetic seismic reconstruction story"
 description: "Executable Python, figures, tables, citations, and cross-references in Quarto"
 author: "SEEM website prototype"
 date: 2026-08-13
+draft: true
 jupyter: python3
 code-fold: true
 code-summary: "Show the Python code"

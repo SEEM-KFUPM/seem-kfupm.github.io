@@ -60,14 +60,22 @@ flowchart LR
   E -. informs .-> A
 ```
 
-This diagram is rendered by Quarto from editable text. It is a useful pattern for students documenting a method without maintaining a separate drawing file.
+<!--
+Prototype implementation note retained for possible later integration:
+This diagram is rendered by Quarto from editable text. It is a useful pattern
+for students documenting a method without maintaining a separate drawing file.
 
 ::: {.callout-note}
 ## Editorial status
 
-These themes are based on the public SEEM software footprint and the website prototype. Research leads should approve the terminology and add representative figures before launch.
+These themes are based on the public SEEM software footprint and the website
+prototype. Research leads should approve the terminology and add representative
+figures before launch.
 :::
 
 ## A reproducible example
 
-The [Python notebook demo](examples/python.qmd) shows how a technical result can live alongside the group website: executable code, a cross-referenced figure, a computed table, and a citation in one reviewable `.qmd` file.
+The [Python notebook demo](examples/python.qmd) shows how a technical result can
+live alongside the group website: executable code, a cross-referenced figure,
+a computed table, and a citation in one reviewable `.qmd` file.
+-->
