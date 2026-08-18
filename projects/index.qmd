@@ -1,22 +1,37 @@
 ---
-title: "Projects & Software"
-description: "Public SEEM research software, reproducibility repositories, and training resources"
+title: "Projects"
+description: "SEEM research and education projects"
 listing:
-  id: public-projects
-  contents: "items/*.qmd"
-  type: grid
-  grid-columns: 3
-  sort: "date desc"
-  sort-ui: false
-  filter-ui: true
-  fields: [image, title, description, categories, date]
+  - id: research-projects
+    contents: "items/*.qmd"
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: true
+    fields: [image, title, description, categories, date]
+  - id: educational-projects
+    contents: "items/educational/*.qmd"
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: true
+    fields: [image, title, description, categories, date]
 ---
 
-<p class="page-lead">We list here public repositories in the SEEM-KFUPM GitHub organization. GitHub remains the technical source of truth for code, issues, licenses, and upstream provenance.</p>
+<p class="page-lead">Explore SEEM projects that advance our research and support education. Each project page brings together its goals, outputs, and links to related resources.</p>
 
-## Public projects
+[Research](#research){.btn .btn-outline-primary role="button"} [Education](#education){.btn .btn-outline-primary role="button"}
 
-::: {#public-projects}
+## Research
+
+::: {#research-projects}
+:::
+
+## Education
+
+::: {#educational-projects}
 :::
 
 <!--

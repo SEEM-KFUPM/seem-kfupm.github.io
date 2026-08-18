@@ -39,16 +39,11 @@ website:
         href: people/index.qmd
       - text: Publications
         href: publications/index.qmd
-      - text: Projects & Software
-        menu:
-          - text: Public projects
-            href: projects/index.qmd
-          # Prototype option retained for later integration:
-          # - text: Python notebook demo
-          #   href: examples/python.qmd
-      # The prototype post remains disabled; the News page shows a public
+      - text: Projects
+        href: projects/index.qmd
+      # The prototype post remains disabled; the Blog page shows a public
       # placeholder until the first reviewed announcement is available.
-      - text: News
+      - text: Blog
         href: news/index.qmd
       - text: Join / Contact
         href: join.qmd

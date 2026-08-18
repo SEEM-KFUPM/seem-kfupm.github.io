@@ -46,7 +46,7 @@ Before joining KFUPM, Denis worked on large-scale geological modelling and softw
 - [KFUPM / CPG profile](https://cpg.kfupm.edu.sa/bio/dr-denis-anikiev/)
 - [Email Denis Anikiev](mailto:denis.anikiev@kfupm.edu.sa)
 
-## Latest news
+## Latest blog posts
 
 ::: {#denis-news}
 :::

@@ -15,6 +15,8 @@ and this project adheres to a simple date-based versioning.
 
 ### Changed
 
+- Renamed “Projects & Software” to “Projects,” divided the catalog into Research and Education sections, moved the AI Coding Agents Workshop into Education, added quick-navigation buttons, and replaced the repository-centric introduction.
+- Renamed the visitor-facing News section to Blog in the navigation, page title, introductory copy, and member profile headings.
 - Updated the GitHub Actions workflow to use Node.js 24-compatible actions and run on pushes to `quarto`, `dev`, and `main`.
 - Added GitHub Pages deployment after successful `main` branch rendering and link validation.
 - Documented the code/content dual-license model in the README and added CC BY 4.0 and “Powered by Quarto” footer links beside GitHub.

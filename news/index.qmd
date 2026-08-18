@@ -1,7 +1,7 @@
 ---
-title: "News"
+title: "Blog"
 description: "Updates from SEEM"
-# News listing retained for activation with the first public post:
+# Blog listing retained for activation with the first public post:
 # listing:
 #   contents: "posts/*.qmd"
 #   type: grid
@@ -13,7 +13,7 @@ description: "Updates from SEEM"
 #   feed: true
 ---
 
-<p class="page-lead">News, research releases, workshops, presentations, visitors, and student achievements from SEEM will be shared here.</p>
+<p class="page-lead">Research releases, workshops, presentations, visitors, and student achievements from SEEM will be shared here.</p>
 
 ::: {.callout-note appearance="simple"}
 ## Updates coming soon
