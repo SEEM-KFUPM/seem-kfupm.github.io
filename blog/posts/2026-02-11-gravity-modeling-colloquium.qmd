@@ -1,0 +1,19 @@
+---
+title: "Gravity-modeling colloquium connects global expertise with SEEM research"
+date: 2026-02-11
+author:
+  - name: "Dr. Denis Anikiev"
+    url: /people/profiles/denis-anikiev.html
+members: [denis-anikiev]
+description: "Prof. Hans-Jürgen Götze visited CPG and joined SEEM discussions on integrated 3D gravity modeling and generative AI."
+categories: [Visitors, Gravity modeling, International collaboration]
+image: ../../assets/illustrations/geological-modeling.svg
+image-alt: "A geological cross-section representing a three-dimensional subsurface model"
+toc: false
+---
+
+The College of Petroleum Engineering & Geosciences hosted Prof. Hans-Jürgen Götze of Kiel University for a colloquium on advances in gravity modeling and their relevance to subsurface exploration.
+
+The lecture showed how gravity observations can be integrated with seismic and geological information to improve structural interpretation across crustal and reservoir scales. Examples from the development and application of IGMAS+ illustrated the value of constrained 3D modeling for reducing interpretation uncertainty.
+
+During the visit, Prof. Götze also joined SEEM meetings on current gravity-modeling projects and emerging approaches that connect geophysical workflows with generative AI.

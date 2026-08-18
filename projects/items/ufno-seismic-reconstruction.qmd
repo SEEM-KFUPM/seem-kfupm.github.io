@@ -1,0 +1,15 @@
+---
+title: "UFNO Seismic Reconstruction"
+description: "Competition and conference code for learning a robust 3D seismic reconstruction operator with U-FNO."
+date: 2025-06-01
+categories: [Neural operators, Seismic reconstruction, Reproducibility]
+image: ../../assets/illustrations/seismic-reconstruction.svg
+image-alt: "Seismic traces reconstructed across a data gap"
+status: Published
+reviewed: 2026-08-17
+toc: false
+---
+
+This listing record links to the complete [UFNO Seismic Reconstruction project story](../ufno-seismic-reconstruction.qmd).
+
+[Project story](../ufno-seismic-reconstruction.qmd){.btn .btn-primary} [GitHub repository](https://github.com/SEEM-KFUPM/UFNO-Seismic-Reconstruction){.btn .btn-outline-primary}

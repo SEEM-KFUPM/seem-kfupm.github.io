@@ -1,0 +1,21 @@
+---
+title: "SEEM hosts seminar on generative microseismic localization"
+date: 2025-11-19
+author:
+  - name: "Dr. Denis Anikiev"
+    url: /people/profiles/denis-anikiev.html
+  - name: "Dr. Umair bin Waheed"
+    url: /people/profiles/umair-waheed.html
+members: [denis-anikiev, umair-waheed]
+description: "Dr. Daniel Wamriew of KAUST visited SEEM to discuss waveform-based generative methods for locating microseismic events."
+categories: [Visitors, Microseismic monitoring, Generative AI]
+image: ../../assets/illustrations/seismic-localization.svg
+image-alt: "Seismic event localized from observations recorded at surface sensors"
+toc: false
+---
+
+The SEEM Group hosted Dr. Daniel Wamriew from the Seismic Wave Analysis Group at King Abdullah University of Science and Technology for a seminar titled *From Waveforms to Coordinates: Generative Localization of Microseismic Events*.
+
+Dr. Wamriew presented work using generative diffusion models to estimate microseismic-event locations directly from waveform data. The approach offers a data-driven alternative to conventional localization workflows and is relevant to subsurface monitoring for CO₂ storage, hydraulic fracturing, and geothermal energy.
+
+The visit concluded with discussions on potential collaboration between SEEM and KAUST in AI-driven, real-time seismic monitoring.

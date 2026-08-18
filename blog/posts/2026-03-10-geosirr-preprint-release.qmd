@@ -1,0 +1,23 @@
+---
+title: "GeoSIRR preprint and open research software released"
+date: 2026-03-10
+author:
+  - name: "Dr. Denis Anikiev"
+    url: /people/profiles/denis-anikiev.html
+  - name: "Dr. Umair bin Waheed"
+    url: /people/profiles/umair-waheed.html
+members: [denis-anikiev, umair-waheed]
+description: "GeoSIRR turns natural-language geological descriptions into validated cross-section models that can be refined through conversation."
+categories: [Research releases, Geological modeling, Large language models]
+image: ../../assets/illustrations/geological-modeling.svg
+image-alt: "A geological cross-section generated from a conversational prompt"
+toc: false
+---
+
+The GeoSIRR 1.0 discussion preprint is now available through EGUsphere, accompanied by public source code and an archived software release [@anikiev2026geosirr]. The manuscript is under review for *Geoscientific Model Development*.
+
+GeoSIRR—Geological Section Interpretation, Reconstruction & Refinement—translates geological narratives into a domain-specific language and coordinate-based cross-sections. Automated completeness, geometry, and topology checks support reproducible model generation and conversational refinement.
+
+The release builds on work presented at the 19th ILP Workshop in Riyadh and the 2026 IPTC Summit on AI for the Energy Industry. Together, the preprint, code, and examples make the workflow available for evaluation, education, and further development.
+
+[Project story](../../projects/geosirr.qmd){.btn .btn-primary} [Preprint](https://doi.org/10.5194/egusphere-2025-6545){.btn .btn-outline-primary} [GitHub repository](https://github.com/SEEM-KFUPM/GeoSIRR){.btn .btn-outline-primary} [Zenodo archive](https://doi.org/10.5281/zenodo.18097054){.btn .btn-outline-primary}

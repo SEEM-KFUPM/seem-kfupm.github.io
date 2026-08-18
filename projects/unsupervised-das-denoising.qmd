@@ -1,0 +1,36 @@
+---
+title: "Unsupervised DAS Denoising"
+subtitle: "Ground-truth-free noise suppression for DAS-VSP"
+description: "Research context and public links for Unsupervised DAS Denoising"
+date: 2025-01-01
+categories: [Distributed acoustic sensing, Denoising, Unsupervised learning]
+image: ../assets/illustrations/das-processing.svg
+image-alt: "Noisy DAS traces transformed into coherent seismic arrivals"
+---
+
+## About
+
+This project implements an attention-based deep-image-prior workflow for suppressing strong background noise in DAS-VSP data without pre-labelled clean targets [@cui2025das]. The pipeline combines patching, kurtosis-based feature selection, unsupervised denoising, and reconstruction.
+
+## Why it matters
+
+Distributed acoustic sensing provides dense measurements in harsh borehole environments, but its sensitivity also captures strong background noise. A ground-truth-free method avoids the need to create matched clean/noisy training pairs for each survey.
+
+## Key result and audience
+
+The public study demonstrates the workflow on synthetic data and field profiles from Utah FORGE and Groß Schönebeck, emphasizing transfer across surveys. The code is relevant to DAS processors, VSP researchers, and unsupervised-learning practitioners.
+
+## Public links
+
+- [GitHub repository](https://github.com/SEEM-KFUPM/Unsupervised-DAS-Denoising)
+- [Journal paper DOI](https://doi.org/10.1109/TGRS.2025.3533597)
+- [Conference paper DOI](https://doi.org/10.1190/image2024-4093371.1)
+
+::: {.callout-note}
+This public SEEM-KFUPM repository is a fork of the authors' upstream implementation; GitHub preserves that provenance.
+:::
+
+## References
+
+::: {#refs}
+:::

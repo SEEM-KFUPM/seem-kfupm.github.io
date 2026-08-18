@@ -1,0 +1,19 @@
+---
+title: "AI-driven seismic and microseismic workflows presented at Saudi Aramco"
+date: 2026-05-13
+author:
+  - name: "Dr. Denis Anikiev"
+    url: /people/profiles/denis-anikiev.html
+members: [denis-anikiev]
+description: "An invited seminar connected advances in seismic imaging, neural operators, diffusion models, and microseismic monitoring."
+categories: [Invited talks, Seismic imaging, Artificial intelligence]
+image: ../../assets/illustrations/research-workshop.svg
+image-alt: "A researcher presenting AI and geoscience concepts to an audience"
+toc: false
+---
+
+Dr. Denis Anikiev delivered an invited presentation to the Saudi Aramco Geophysical Imaging Department Innovation Team Seminar Series titled *From Acquisition to Insight: AI-Driven Seismic Imaging and Microseismic Workflows*.
+
+The seminar connected recent advances in seismic imaging and microseismic monitoring with diffusion models, neural operators, deep learning, and physics-informed methods. The examples illustrated how these approaches can support subsurface characterization from data acquisition through interpretation.
+
+The discussion generated interest in potential collaboration between CPG and Saudi Aramco on computational geophysics, seismic imaging, and AI-enabled geophysical workflows.

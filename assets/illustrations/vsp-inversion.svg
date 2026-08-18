@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Vertical seismic profiling inversion</title>
+  <desc id="desc">A borehole sensor array looks ahead into layered rock while a neural model estimates velocity.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#003e51"/><stop offset="1" stop-color="#00705c"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/><g fill="none" stroke="#d9f3ea" stroke-width="7" opacity=".55"><path d="M0 165q260 55 520 0t680 0"/><path d="M0 285q300 55 570 0t630 0"/><path d="M0 405q320 55 610 0t590 0"/><path d="M0 525q340 55 650 0t550 0"/></g>
+  <path d="M310 70v535" stroke="#f2d65c" stroke-width="18"/><g fill="#003e51" stroke="#f2d65c" stroke-width="8"><circle cx="310" cy="170" r="23"/><circle cx="310" cy="270" r="23"/><circle cx="310" cy="370" r="23"/><circle cx="310" cy="470" r="23"/></g>
+  <path d="M350 220q225 20 390 195" fill="none" stroke="#dac961" stroke-width="8" stroke-dasharray="18 14"/><path d="m730 376 30 63-68-17" fill="#dac961"/>
+  <g transform="translate(805 150)"><rect width="275" height="360" rx="30" fill="#fff" opacity=".94"/><path d="M50 285 90 245l42 20 48-110 45-65" fill="none" stroke="#008540" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M50 310h180M50 60v250" stroke="#55706a" stroke-width="5"/></g>
+</svg>

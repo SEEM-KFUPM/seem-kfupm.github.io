@@ -1,21 +1,20 @@
-# SEEM website — Quarto prototype
+# SEEM · KFUPM Website
 
-This branch is a from-scratch Quarto implementation of the Smart Earth Exploration and Monitoring group website. It starts from the repository's minimal `main` branch and reuses only the approved SEEM/KFUPM logos, Omnes fonts, and high-level content concept from the parallel HugoBlox prototype.
+Official website of the **Smart Earth Exploration and Monitoring (SEEM)** research group at the College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum and Minerals.
 
-## What this prototype demonstrates
+**Website:** [https://seem-kfupm.github.io/](https://seem-kfupm.github.io/)
 
-- The agreed navigation: Home, Research, People, Publications, Projects & Software, News, and Join / Contact.
-- Metadata-driven Quarto listings for people, projects, and news.
-- Site search, RSS, responsive cards, accessible focus states, and descriptive image text.
-- A shared BibTeX source for project, publication, and notebook citations.
-- An executable Python/Jupyter page with a generated figure, computed table, cross-references, folded code, callouts, and tabsets.
-- A build-check workflow for the `quarto` branch. It uploads the rendered site as an artifact but does **not** deploy over the live organization site.
+This repository contains the production Quarto website, including the group's research themes, members, publications, public software projects, blog, and contact information.
 
-All unapproved people, news, recruitment, and contact content is explicitly labeled as placeholder material.
+## Highlights
 
-## Local setup
+- Responsive Quarto site with search, light and dark themes, and accessible navigation.
+- Member profiles, publications, public research software, blog posts, and reproducible computational examples.
+- Automated rendering and internal-link validation with GitHub Actions.
 
-Quarto 1.10.18 is the tested renderer.
+## Local development
+
+Quarto 1.10.18 and Python 3.12 are the tested development environment.
 
 ```sh
 python3 -m venv .venv
@@ -24,24 +23,31 @@ python3 -m venv .venv
 QUARTO_PYTHON=.venv/bin/python quarto preview
 ```
 
-Render the static site:
+Render the complete static website with:
 
 ```sh
 QUARTO_PYTHON=.venv/bin/python quarto render
 ```
 
-The output is written to `_site/`. Quarto's `freeze: auto` stores notebook results in `_freeze/`, which should be committed so normal CI builds do not need to re-execute older computational pages.
+Validate the rendered site with:
 
-## Content workflow
+```sh
+python scripts/check_internal_links.py _site
+```
 
-- Add a profile under `people/profiles/`.
-- Add a project listing record under `projects/items/` and, when needed, a longer project page under `projects/`.
-- Copy `news/posts/prototype-workflow.qmd` for a short update.
-- Add reviewed bibliographic records to `publications.bib` and cite them as `[@citation-key]`.
-- Put research teaching examples under `examples/`; declare every dependency in `requirements.txt` and use a deterministic random seed.
+## Contributing
 
-Every substantive change should be reviewed in a pull request. People, projects, positions, and institutional language should include an owner and review date before launch.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for content locations, attribution metadata, bibliography updates, review expectations, and the contributor checklist.
 
-## Publishing decision
+The canonical address is configured in `_quarto.yml`. Pull requests are rendered and checked before publication.
 
-The included GitHub Action validates and preserves a rendered artifact. It intentionally does not publish to `gh-pages`, because this experimental branch should not replace the current organization site without an explicit decision. When the Quarto version is selected for production, configure the repository's Pages source and add the official Quarto publish action as a separate reviewed change.
+## Licensing
+
+This repository uses separate licenses for software and website content:
+
+- **Software — MIT License.** Source code, scripts, stylesheets, Quarto configuration, templates, and other software are licensed under the [MIT License](LICENSE). It permits reuse, modification, redistribution, and commercial use while requiring preservation of the copyright and license notice.
+- **Original content — CC BY 4.0.** Original website text and original SEEM illustrations are licensed under the [Creative Commons Attribution 4.0 International License](CONTENT-LICENSE.md). It permits sharing and adaptation, including commercial use, provided that SEEM · KFUPM is credited, the license is linked, and modifications are identified.
+
+The content license excludes institutional names, logos, trademarks and branding; portraits, photographs and personal information unless explicitly marked; third-party figures, media, quotations and publication content; linked external material; and content, software or data governed by another project's license. These materials remain subject to their respective rights and may require separate permission.
+
+See [CONTENT-LICENSE.md](CONTENT-LICENSE.md) for the complete scope, attribution guidance, and exclusions. The two licenses apply by material type: CC BY 4.0 does not replace the MIT License for code, and the MIT License does not grant rights to excluded website media or institutional branding.

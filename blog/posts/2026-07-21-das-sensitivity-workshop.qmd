@@ -1,0 +1,23 @@
+---
+title: "AI-accelerated DAS sensitivity modeling presented in Kuala Lumpur"
+date: 2026-07-21
+author:
+  - name: "Ayrat Abdullin"
+  - name: "Dr. Denis Anikiev"
+    url: /people/profiles/denis-anikiev.html
+  - name: "Dr. Umair bin Waheed"
+    url: /people/profiles/umair-waheed.html
+members: [denis-anikiev, umair-waheed]
+description: "SEEM PhD student Ayrat Abdullin presented neural-network approaches for reconstructing high-resolution DAS sensitivity maps."
+categories: [Student achievements, Distributed acoustic sensing, Neural operators]
+#image: ../../assets/illustrations/das-processing.svg
+image: ../../assets/blog/2026-07-21-das-sensitivity-workshop/hero.jpg
+image-alt: "Distributed acoustic sensing measurements transformed into a coherent seismic representation"
+toc: false
+---
+
+SEEM PhD student Ayrat Abdullin presented *AI-Accelerated Upscaling of DAS Sensitivity Maps for Faster Fibre-Optic Monitoring-Array Design* at the SEG/SPE workshop *Fibre for the Future: AI-Driven Intelligence* in Kuala Lumpur, Malaysia.
+
+The work, co-authored by Dr. Denis Anikiev and Dr. Umair bin Waheed, evaluates Fourier-neural-operator and residual-convolutional-network workflows for reconstructing high-resolution distributed-acoustic-sensing sensitivity maps from coarse-grid forward simulations.
+
+The learned approaches are designed to accelerate monitoring-array studies while preserving geometry-controlled low-sensitivity regions and localized anomalies more effectively than conventional interpolation. The results support more scalable design and assessment of fibre-optic monitoring configurations.

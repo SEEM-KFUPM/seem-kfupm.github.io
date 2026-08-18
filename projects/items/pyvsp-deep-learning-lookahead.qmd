@@ -1,0 +1,15 @@
+---
+title: "PyVSP Deep Learning Lookahead"
+description: "An end-to-end temporal-convolutional-network pipeline for ahead-of-the-bit velocity inversion from VSP data."
+date: 2026-08-01
+categories: [Vertical seismic profiling, Inversion, Deep learning]
+image: ../../assets/illustrations/vsp-inversion.svg
+image-alt: "Borehole sensors and a predicted subsurface velocity profile"
+status: Published
+reviewed: 2026-08-17
+toc: false
+---
+
+This listing record links to the complete [PyVSP Deep Learning Lookahead project story](../pyvsp-deep-learning-lookahead.qmd).
+
+[Project story](../pyvsp-deep-learning-lookahead.qmd){.btn .btn-primary} [GitHub repository](https://github.com/SEEM-KFUPM/PyVSP_Deep_Learning_Lookahead){.btn .btn-outline-primary}

@@ -1,30 +1,57 @@
 ---
 title: "Publications"
-description: "Selected, reviewed SEEM research outputs"
+description: "Recent SEEM-authored and project-linked research outputs"
 nocite: |
-  @traversa2026seisreconno
+  @*
 ---
 
-<p class="page-lead">A shared BibTeX record powers citations in project pages, computational articles, and this publication index.</p>
+<p class="page-lead">This bibliography combines papers linked directly to SEEM's public software with recent outputs from the public ORCID records of current group members.</p>
 
-::: {.callout-tip}
-## Quarto feature: one bibliographic source
+## Publications linked to public projects
 
-The citation on the [SeisReconNO project page](../projects/seisreconno.qmd), the notebook example, and the reference below all resolve from `publications.bib`.
-:::
+- Explainable AI for microseismic event detection [@abdullin2026xai]
+- Inversion of VSP data via temporal convolutional networks [@almarzooq2026vsp]
+- SeisReconNO for 3D seismic reconstruction [@traversa2026seisreconno]
+- Fourier neural operators for moonquake detection [@alqadasi2026moonquake]
+- GeoSIRR conversational cross-section modeling (discussion preprint) [@anikiev2026geosirr]
+- U-PINO DAS source localization (accepted/in press) [@alqadasi2026upino]
+- Fourier-neural-operator localization at Utah FORGE [@abdullin2025fno]
+- Unsupervised DAS-VSP denoising [@cui2025das]
+- Robust 3D seismic reconstruction with UFNO (conference paper) [@traversa2025ufno]
+- DAS-VSP background-noise suppression (conference paper) [@cui2024das]
+- FNO source localization at FORGE (conference paper) [@abdullin2024forge]
 
-## Selected record
+## Additional recent SEEM-member research
 
-Traversa *et al.* introduce a U-Net-enhanced Fourier neural operator for reconstructing 3D seismic data [@traversa2026seisreconno].
+### 2026
 
-- [DOI: 10.1016/j.aiig.2026.100212](https://doi.org/10.1016/j.aiig.2026.100212)
-- [SEEM public repositories](https://github.com/SEEM-KFUPM)
+- Physics-informed eikonal tomography of Northeast China [@cui2026lithosphere]
+- Rock-physics and machine-learning shale sweet-spot delineation [@davy2026shale]
+- GeoFWI deep-learning benchmark data set [@li2026geofwi]
+- Physics-informed Fourier-DeepONet eikonal solution [@liu2026fourierdeeponet]
+- Generalized eikonal solver using operator learning [@archibong2026eikonal]
+- Physics-constrained, source-independent full-waveform inversion [@song2026fwi]
+
+### 2025
+
+- Signal-to-noise models for shallow borehole monitoring [@kalinichenko2025snr]
+- Synthetic low-magnitude earthquake data with an auxiliary-classifier GAN [@alsulami2025synthetic]
+- An advanced seismic-monitoring strategy for CO2 sequestration [@eisner2025co2]
+- Faster-converging physics-informed seismic wave simulation [@zou2025pinn]
+- Physically guided unsupervised 1-D magnetotelluric inversion [@goyes2025magnetotelluric]
+
+### 2024 and before
+
+- Sensor placement for uncertainty reduction in moment-tensor inversion [@dia2024sensors]
+- Petrophysical constraints for AI-driven unconventional-reservoir predictions [@davy2024petrophysical]
+- Upper-limit magnitudes for energy-industry induced seismicity [@cao2024induced]
+- Automated deep learning in geosciences [@davy2024autodl]
+- Enriched DeepONet for seismological applications [@haghighat2024endeeponet]
+- Hard-constrained neural traveltime tomography [@taufik2024tomography]
+- Physics-informed neural-operator seismic traveltime simulation [@song2024pino]
+- Review of machine learning in microseismic monitoring [@anikiev2023microseismic]
 
 ## References
 
 ::: {#refs}
-:::
-
-::: {.callout-note}
-The MVP intentionally contains one reviewed public record. Add DOI/BibTeX automation only after the group agrees on ownership, deduplication, and review rules.
 :::

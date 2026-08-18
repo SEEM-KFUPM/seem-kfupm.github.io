@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Distributed acoustic sensing processing</title>
+  <desc id="desc">Noisy distributed acoustic sensing traces become coherent seismic arrivals.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#003e51"/><stop offset="1" stop-color="#00705c"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g fill="none" stroke="#d9f3ea" stroke-width="4" opacity=".45"><path d="M60 130q25 150 50 0t50 0 50 0 50 0 50 0 50 0 50 0 50 0"/><path d="M60 250q30-130 60 0t60 0 60 0 60 0 60 0 60 0 60 0"/><path d="M60 370q20 110 40 0t40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0"/><path d="M60 490q32-135 64 0t64 0 64 0 64 0 64 0 64 0 64 0"/></g>
+  <path d="M565 70v535" stroke="#dac961" stroke-width="6" stroke-dasharray="15 12"/>
+  <g fill="none" stroke="#f2d65c" stroke-width="7"><path d="M650 150q80-95 160 0t160 0 160 0"/><path d="M650 285q80-95 160 0t160 0 160 0"/><path d="M650 420q80-95 160 0t160 0 160 0"/><path d="M650 555q80-95 160 0t160 0 160 0"/></g>
+  <circle cx="565" cy="337" r="45" fill="#dac961"/><path d="m545 337 15 15 29-34" fill="none" stroke="#003e51" stroke-width="10" stroke-linecap="round"/>
+</svg>

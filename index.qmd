@@ -18,7 +18,7 @@ description: "Smart Earth Exploration and Monitoring at KFUPM"
 
 ::: {.hero-actions}
 [Explore our research](research.qmd){.btn .btn-light}
-[View selected software](projects/index.qmd){.btn .btn-outline-light}
+[Explore our projects](projects/index.qmd){.btn .btn-outline-light}
 :::
 :::
 
@@ -30,57 +30,70 @@ description: "Smart Earth Exploration and Monitoring at KFUPM"
 
 ::: {.section-band}
 ::: {.section-intro}
-## Four connected research themes
+## Research topics
 
 We combine practical Earth observations with reproducible computational research, from field-scale monitoring to transparent geological interpretation.
 :::
 
 ::: {.feature-grid}
 ::: {.feature-card}
-<div class="feature-number">01 · SIGNAL</div>
+<div class="feature-number">MONITORING</div>
 
-### Monitoring & microseismicity
+### Seismic event intelligence
 
-Detection, characterization, and localization of seismic events.
+Detection, characterization, and localization of seismic and microseismic events.
 :::
 
 ::: {.feature-card}
-<div class="feature-number">02 · SENSING</div>
+<div class="feature-number">IMAGING</div>
 
-### DAS & VSP analysis
+### Reconstruction & inversion
+
+Methods for recovering seismic data and estimating subsurface properties.
+:::
+
+::: {.feature-card}
+<div class="feature-number">SENSING</div>
+
+### DAS & VSP
 
 Signal processing and deep learning for distributed acoustic sensing observations.
 :::
 
 ::: {.feature-card}
-<div class="feature-number">03 · COMPUTATION</div>
+<div class="feature-number">MODELING</div>
 
-### Scientific machine learning
+### Physics & geology
 
-Neural operators and physics-informed learning for inverse problems and reconstruction.
-:::
-
-::: {.feature-card}
-<div class="feature-number">04 · INSIGHT</div>
-
-### Geological interpretation
-
-Explainable AI and reconstruction tools for transparent subsurface interpretation.
+Physics-informed learning and explicit geological models for subsurface understanding.
 :::
 :::
 :::
 
 ::: {.section-band .soft}
 ::: {.section-intro}
-## Selected work
+## Selected projects
 
-The website explains why each result matters; GitHub remains the technical source of truth.
+Below are some selected projects spanning explainable event detection, seismic reconstruction, DAS denoising, and conversational geological modeling. [Explore all projects](projects/index.qmd).
 :::
 
 ::: {.project-grid}
 ::: {.project-card}
-<span class="status-chip">Prototype project card</span>
+<!-- Prototype status option retained: <span class="status-chip">Prototype project card</span> -->
 
+### Explainable PhaseNet
+
+Grad-CAM and SHAP tools for interpreting PhaseNet and improving microseismic event detection under strong noise.
+
+<span class="tag">Explainable AI</span><span class="tag">Event detection</span><span class="tag">Open source</span>
+
+::: {.card-actions}
+[Project story](projects/xai-phasenet.qmd){.btn .btn-sm .btn-primary}
+[GitHub](https://github.com/SEEM-KFUPM/xAI_PhaseNet){.btn .btn-sm .btn-outline-primary}
+:::
+:::
+
+::: {.project-card}
 ### SeisReconNO
 
 A U-Net-enhanced Fourier neural operator approach for reconstructing missing traces in 3D seismic data.
@@ -94,7 +107,34 @@ A U-Net-enhanced Fourier neural operator approach for reconstructing missing tra
 :::
 
 ::: {.project-card}
-<span class="status-chip">Quarto feature demo</span>
+### Unsupervised DAS Denoising
+
+Ground-truth-free suppression of strong background noise in DAS-VSP data using an attention-based deep image prior.
+
+<span class="tag">DAS & VSP</span><span class="tag">Denoising</span><span class="tag">Open source</span>
+
+::: {.card-actions}
+[Project story](projects/unsupervised-das-denoising.qmd){.btn .btn-sm .btn-primary}
+[GitHub](https://github.com/SEEM-KFUPM/Unsupervised-DAS-Denoising){.btn .btn-sm .btn-outline-primary}
+:::
+:::
+
+::: {.project-card}
+### GeoSIRR
+
+Conversational generation, validation, refinement, and visualization of geological cross-sections.
+
+<span class="tag">Geological modeling</span><span class="tag">LLMs</span><span class="tag">Open source</span>
+
+::: {.card-actions}
+[Project story](projects/geosirr.qmd){.btn .btn-sm .btn-primary}
+[GitHub](https://github.com/SEEM-KFUPM/GeoSIRR){.btn .btn-sm .btn-outline-primary}
+:::
+:::
+:::
+
+<!--
+Prototype Quarto feature card retained for possible later integration:
 
 ### From code to research story
 
@@ -106,8 +146,10 @@ An executable Python page turns a synthetic seismic experiment into a figure, a 
 [Open notebook demo](examples/python.qmd){.btn .btn-sm .btn-primary}
 :::
 :::
-:::
+-->
 
+<!--
+Prototype implementation metrics retained for possible later integration:
 ::: {.metric-strip}
 ::: {.metric}
 **Markdown + `.qmd`**
@@ -122,31 +164,40 @@ Scientific publishing
 GitHub Pages ready
 :::
 :::
+-->
 :::
 
 ::: {.section-band}
 ::: {.section-intro}
 ## Publications and people
 
-The prototype begins with one verified public record and one visibly labeled profile placeholder. Approved team data can replace the placeholder without changing the design.
+Explore SEEM's recent research outputs and meet the researchers developing them.
 :::
 
 ::: {.project-grid}
 ::: {.project-card}
-### Selected publication
+### Recent publications
 
-Traversa *et al.* present SeisReconNO, combining Fourier neural operators and a U-Net-enhanced architecture for 3D seismic reconstruction [@traversa2026seisreconno].
+Browse peer-reviewed articles, conference papers, preprints, and project-linked research covering seismic monitoring, scientific machine learning, inversion, and interpretation.
 
 [Browse publications](publications/index.qmd)
 :::
 
 ::: {.project-card}
-### A sustainable contribution path
+### Meet the team
 
-Students and postdocs can copy a short `.qmd` template, preview locally, and open a pull request. Metadata powers the people, projects, and news listings automatically.
+SEEM brings together researchers working across computational geophysics, sensing, data analytics, and artificial intelligence.
 
-[See the prototype profile](people/index.qmd) · [Read the workflow note](news/posts/prototype-workflow.qmd)
+[Meet the team](people/index.qmd)
 :::
+
+<!--
+Prototype contribution-path card retained for possible later integration:
+
+Students and postdocs can copy a short `.qmd` template, preview locally, and open a pull request. Metadata powers the people, projects, and blog listings automatically.
+
+[Read the workflow note](blog/posts/prototype-workflow.qmd)
+-->
 :::
 :::
 
@@ -155,7 +206,7 @@ Students and postdocs can copy a short `.qmd` template, preview locally, and ope
 ::: {}
 ## Work with SEEM
 
-Explore our open-source work, propose a collaboration, or help prepare approved public information for the group.
+Interested in studying and researching with SEEM? Explore KFUPM pathways for [undergraduate admission](https://admissions.kfupm.edu.sa/en) and [research-based master's and PhD study](https://kfupm.edu.sa/study/master-of-science-thesis-based-phd), learn about the group, or propose a research collaboration.
 :::
 
 [Join / Contact](join.qmd){.btn .btn-light .btn-lg}

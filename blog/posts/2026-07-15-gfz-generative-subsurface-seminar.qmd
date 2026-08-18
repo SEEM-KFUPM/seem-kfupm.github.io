@@ -1,0 +1,19 @@
+---
+title: "GFZ visit advances collaboration on generative subsurface modeling"
+date: 2026-07-15
+author:
+  - name: "Dr. Denis Anikiev"
+    url: /people/profiles/denis-anikiev.html
+members: [denis-anikiev]
+description: "An invited seminar and technical discussions explored diffusion-based inversion and the next generation of GeoSIRR."
+categories: [Invited talks, International collaboration, Generative AI]
+image: ../../assets/illustrations/geological-modeling.svg
+image-alt: "A geological cross-section produced through an AI-assisted modeling workflow"
+toc: false
+---
+
+As part of an ongoing research collaboration in Germany, Dr. Denis Anikiev visited the GFZ Helmholtz Centre for Geosciences in Potsdam and delivered the invited seminar *Toward Generative Subsurface Models: Diffusion-Based Approaches for Geophysical Inversion and Geological Modeling*.
+
+The seminar presented recent work on diffusion-based geophysical inversion, uncertainty-aware subsurface characterization, and integrated geological modeling. Technical discussions during the visit focused on the next generation of GeoSIRR and opportunities to combine generative AI with geological knowledge and reproducible modeling workflows.
+
+[Explore the GeoSIRR project](../../projects/geosirr.qmd){.btn .btn-primary}

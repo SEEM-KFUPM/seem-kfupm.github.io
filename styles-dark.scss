@@ -64,6 +64,36 @@ $card-bg: #12282d;
   color: #eef8f4;
 }
 
+.blog-listing-by-year .blog-listing-item {
+  background: #12282d;
+  border-color: #345158;
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.2);
+}
+
+.blog-listing-by-year .blog-listing-image {
+  background: #10262b;
+}
+
+.blog-listing-by-year .listing-title a {
+  color: #eef8f4;
+}
+
+.blog-listing-by-year .metadata {
+  color: #aabdb8;
+}
+
+.blog-post-hero {
+  background: #10262b;
+  border-color: #345158;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.24);
+}
+
+#listing-team-profiles .thumbnail-image,
+.member-profile-portrait {
+  border-color: #345158;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.35);
+}
+
 .placeholder-note {
   background: #37331d;
   border-color: #756b34;

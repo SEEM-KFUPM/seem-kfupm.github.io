@@ -1,0 +1,15 @@
+---
+title: "FNO Localization"
+description: "Fourier neural operators for rapid microseismic source localization, demonstrated with Utah FORGE field data."
+date: 2025-02-01
+categories: [Neural operators, Microseismic monitoring, Utah FORGE]
+image: ../../assets/illustrations/seismic-localization.svg
+image-alt: "Subsurface seismic event localized from surface sensors"
+status: Published
+reviewed: 2026-08-17
+toc: false
+---
+
+This listing record links to the complete [FNO Localization project story](../fno-localization.qmd).
+
+[Project story](../fno-localization.qmd){.btn .btn-primary} [GitHub repository](https://github.com/SEEM-KFUPM/FNO_Localization){.btn .btn-outline-primary}

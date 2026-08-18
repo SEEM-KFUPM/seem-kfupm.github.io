@@ -1,26 +1,45 @@
 ---
-title: "Projects & Software"
-description: "Curated SEEM research outputs and reproducible examples"
+title: "Projects"
+description: "SEEM research and education projects"
 listing:
-  contents: "items/*.qmd"
-  type: grid
-  grid-columns: 3
-  sort: "date desc"
-  sort-ui: false
-  filter-ui: true
-  fields: [image, title, description, categories, date]
+  - id: research-projects
+    contents: "items/*.qmd"
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: true
+    fields: [image, title, description, categories, date]
+  - id: educational-projects
+    contents: "items/educational/*.qmd"
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: true
+    fields: [image, title, description, categories, date]
 ---
 
-<p class="page-lead">The website curates a small selection of research outputs and explains their purpose. GitHub remains the technical source of truth.</p>
+<p class="page-lead">Explore SEEM projects that advance our research and support education. Each project page brings together its goals, outputs, and links to related resources.</p>
 
-::: {.callout-important}
-## A project card should answer four questions
+[Research](#research){.btn .btn-outline-primary role="button"} [Education](#education){.btn .btn-outline-primary role="button"}
 
-What problem does it solve? Who is it for? What is the key result? Where are the code, paper, data, and demonstration?
+## Research
+
+::: {#research-projects}
 :::
 
-## Selected work
+## Education
+
+::: {#educational-projects}
+:::
+
+<!--
+Prototype publishing section retained for possible later integration:
 
 ## Reproducible publishing
 
-Quarto can turn an analysis into a page without copying plots by hand. Open the [synthetic seismic Python example](../examples/python.qmd) to inspect executable code, figure cross-references, tabbed explanations, and computed output.
+Quarto can turn an analysis into a page without copying plots by hand. Open the
+[synthetic seismic Python example](../examples/python.qmd) to inspect executable
+code, figure cross-references, tabbed explanations, and computed output.
+-->

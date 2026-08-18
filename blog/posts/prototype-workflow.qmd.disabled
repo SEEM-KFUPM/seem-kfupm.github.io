@@ -1,12 +1,16 @@
 ---
-title: "Prototype: a reviewable workflow for SEEM news"
+# This file is intentionally disabled. Rename it to `.qmd` when a public blog
+# workflow is ready to return to the rendered website.
+title: "Prototype: a reviewable workflow for the SEEM blog"
 date: 2026-08-13
 author: "SEEM website prototype"
+members: [seem-website-prototype]
 description: "A sample post demonstrating the short Markdown workflow for research updates, events, releases, and outreach."
 categories: [Prototype, Open research]
 image: ../../assets/media/icon.png
 image-alt: "SEEM icon"
 toc: false
+draft: true
 ---
 
 ::: {.callout-warning}
@@ -22,4 +26,4 @@ A normal update should include a clear title, date, one or two paragraphs, an ap
 3. Run `quarto preview`, check links and mobile layout, then open a pull request.
 4. Ask a colleague to review accuracy, spelling, institutional language, and media permissions.
 
-Quarto automatically adds the approved post to the news grid and RSS feed using its metadata.
+Quarto automatically adds the approved post to the blog grid and RSS feed using its metadata.

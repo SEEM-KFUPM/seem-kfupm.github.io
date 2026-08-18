@@ -1,0 +1,19 @@
+---
+title: "AI for microseismicity presented to the CSEG Microseismic User Group"
+date: 2025-12-10
+author:
+  - name: "Dr. Denis Anikiev"
+    url: /people/profiles/denis-anikiev.html
+members: [denis-anikiev]
+description: "An invited technical presentation examined intelligent, adaptive, and interpretable AI workflows for passive seismic monitoring."
+categories: [Invited talks, Microseismic monitoring, Artificial intelligence]
+image: ../../assets/illustrations/seismic-localization.svg
+image-alt: "Subsurface seismic event localized from a surface monitoring array"
+toc: false
+---
+
+Dr. Denis Anikiev delivered an invited technical presentation to the Microseismic User Group of the Canadian Society of Exploration Geophysicists titled *Machine Learning and Generative AI for Microseismicity: Toward Intelligent, Adaptive, and Interpretable Passive Seismic Workflows*.
+
+The presentation reviewed how supervised and unsupervised learning, physics-informed models, neural operators, and generative diffusion methods can support the detection, reconstruction, and localization of weak microseismic signals. It also discussed the role of explainable-AI methods such as Grad-CAM and SHAP in evaluating model behavior.
+
+The talk outlined a path toward passive-seismic workflows that combine data-driven performance with physical constraints and interpretable results.

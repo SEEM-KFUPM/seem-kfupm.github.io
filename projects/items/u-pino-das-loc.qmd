@@ -1,0 +1,15 @@
+---
+title: "U-PINO DAS Localization"
+description: "A physics-informed U-shaped neural operator for near-real-time DAS microseismic localization at Utah FORGE."
+date: 2026-05-13
+categories: [Physics-informed AI, Distributed acoustic sensing, Utah FORGE]
+image: ../../assets/illustrations/seismic-localization.svg
+image-alt: "Seismic event localization with a dense sensor array"
+status: In press
+reviewed: 2026-08-17
+toc: false
+---
+
+This listing record links to the complete [U-PINO DAS Localization project story](../u-pino-das-loc.qmd).
+
+[Project story](../u-pino-das-loc.qmd){.btn .btn-primary} [GitHub repository](https://github.com/SEEM-KFUPM/U-PINO_DAS_loc){.btn .btn-outline-primary}

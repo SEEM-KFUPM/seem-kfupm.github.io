@@ -1,0 +1,15 @@
+---
+title: "Explainable PhaseNet"
+description: "Grad-CAM and SHAP tools for interpreting PhaseNet and improving microseismic detection under strong noise."
+date: 2026-06-28
+categories: [Explainable AI, Event detection, Microseismic monitoring]
+image: ../../assets/illustrations/explainable-ai.svg
+image-alt: "Highlighted P- and S-wave regions on a seismic waveform"
+status: Published
+reviewed: 2026-08-17
+toc: false
+---
+
+This listing record links to the complete [Explainable PhaseNet project story](../xai-phasenet.qmd).
+
+[Project story](../xai-phasenet.qmd){.btn .btn-primary} [GitHub repository](https://github.com/SEEM-KFUPM/xAI_PhaseNet){.btn .btn-outline-primary}

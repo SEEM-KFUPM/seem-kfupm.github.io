@@ -1,0 +1,35 @@
+---
+title: "U-PINO DAS Localization"
+subtitle: "Physics-guided DAS microseismic localization"
+description: "Research context and public links for U-PINO DAS Localization"
+date: 2026-05-13
+categories: [Physics-informed AI, Distributed acoustic sensing, Utah FORGE]
+image: ../assets/illustrations/seismic-localization.svg
+image-alt: "Seismic event localization with a dense sensor array"
+---
+
+## About
+
+U-PINO combines Fourier spectral blocks, a U-Net-style encoder-decoder, and an eikonal-consistency loss to predict a full travel-time field from DAS arrival-time observations [@alqadasi2026upino]. The source is localized at the predicted travel-time minimum.
+
+## Why it matters
+
+Fast localization supports monitoring of stimulation and stress evolution in geothermal reservoirs. Purely data-driven surrogates may lose physical consistency, while repeated numerical eikonal solutions can be too expensive for near-real-time use.
+
+## Key result and audience
+
+The accepted paper reports up to a 78% reduction in travel-time RMSE relative to a plain FNO baseline and roughly 50% less training time per epoch for the evaluated configuration. The repository supports Utah FORGE experiments, field-event examples, and FNO comparisons for DAS and induced-seismicity researchers.
+
+## Public links
+
+- [GitHub repository](https://github.com/SEEM-KFUPM/U-PINO_DAS_loc)
+- [Utah FORGE](https://utahforge.com/)
+
+::: {.callout-note}
+The paper is accepted/in press in *Geophysical Prospecting*; a DOI was not present in the public record reviewed on 17 August 2026. This public repository is a fork of the authors' upstream implementation.
+:::
+
+## References
+
+::: {#refs}
+:::

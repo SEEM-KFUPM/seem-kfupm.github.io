@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Reproducible research coding workshop</title>
+  <desc id="desc">A presentation screen, code window, and connected collaborators represent a hands-on coding workshop.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#003e51"/><stop offset="1" stop-color="#00705c"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/><rect x="150" y="85" width="900" height="410" rx="28" fill="#eef4f1"/><rect x="150" y="85" width="900" height="58" rx="28" fill="#dac961"/><circle cx="200" cy="114" r="11" fill="#003e51"/><circle cx="238" cy="114" r="11" fill="#008540"/>
+  <path d="m360 235-95 70 95 70M840 235l95 70-95 70M690 200 510 410" fill="none" stroke="#008540" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M600 495v70M430 565h340" stroke="#dac961" stroke-width="18" stroke-linecap="round"/>
+  <g fill="#f2d65c"><circle cx="265" cy="570" r="35"/><circle cx="935" cy="570" r="35"/><circle cx="600" cy="595" r="35"/></g><g stroke="#f2d65c" stroke-width="8"><path d="m295 570 270 22M905 570l-270 22"/></g>
+</svg>

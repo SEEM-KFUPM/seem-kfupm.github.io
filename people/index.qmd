@@ -2,19 +2,40 @@
 title: "People"
 description: "Researchers working across geoscience, sensing, and machine learning"
 listing:
+  id: team-profiles
   contents: "profiles/*.qmd"
   type: grid
   grid-columns: 3
-  sort: "title"
+  sort:
+    - "order"
+    - "title"
   sort-ui: false
   filter-ui: false
   fields: [image, title, subtitle, description, categories]
 ---
 
-<p class="page-lead">SEEM brings together researchers working across geoscience, sensing, and machine learning.</p>
+<p class="page-lead">SEEM brings together <a href="#senior-researchers">senior researchers</a>, <a href="#students">students</a>, and <a href="#alumni">alumni</a> working across geoscience, AI, machine learning, and engineering.</p>
 
-::: {.placeholder-note}
-**Prototype content:** the profile below is deliberately fictional and visibly labeled. Replace it only with current, approved member information and photography.
+## Senior Researchers {#senior-researchers}
+
+::: {#team-profiles}
 :::
 
-## Team profiles
+<!--
+## Postdocs {#postdocs}
+
+Postdoctoral researchers will be listed here when profiles are available.
+-->
+
+## Students {#students}
+
+- Alessandro Traversa — [GitHub](https://github.com/traversa942)
+- Ayrat Abdullin — [GitHub](https://github.com/ayratabd)
+- Basem Al-Qadasi — [GitHub](https://github.com/basemqadasi)
+- Hugo Olea — [GitHub](https://github.com/Hugoolea03)
+- Naba Al Hamad — [Public profile](https://sa.linkedin.com/in/naba-al-hamad-a3ba4011a)
+
+## Alumni {#alumni}
+
+- Hussain A. Almarzooq — [GitHub](https://github.com/Hussain747715)
+- Yang Cui — [GitHub](https://github.com/cuiyang512)

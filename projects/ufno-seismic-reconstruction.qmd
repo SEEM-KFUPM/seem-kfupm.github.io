@@ -1,0 +1,35 @@
+---
+title: "UFNO Seismic Reconstruction"
+subtitle: "Learning a robust 3D reconstruction operator"
+description: "Research context and public links for UFNO Seismic Reconstruction"
+date: 2025-06-01
+categories: [Neural operators, Seismic reconstruction, Reproducibility]
+image: ../assets/illustrations/seismic-reconstruction.svg
+image-alt: "Seismic traces reconstructed across a data gap"
+---
+
+## About
+
+UFNO Seismic Reconstruction contains the competition and conference workflow for learning a 3D reconstruction operator with U-FNO [@traversa2025ufno]. It trains on patches from open 3D field seismic cubes and considers random, trace-wise, and regular missing-data patterns.
+
+## Why it matters
+
+Acquisition gaps and failed receivers leave missing seismic traces that degrade later processing and interpretation. Operator learning seeks a reusable reconstruction map that generalizes across missing ratios and data resolutions.
+
+## Key result and audience
+
+The project provides data-preparation, training, pretrained-weight, and notebook guidance developed for the CPG-KFUPM machine-learning competition and an EAGE conference paper. It is useful to researchers benchmarking 3D seismic reconstruction and neural operators.
+
+## Public links
+
+- [GitHub repository](https://github.com/SEEM-KFUPM/UFNO-Seismic-Reconstruction)
+- [Conference paper DOI](https://doi.org/10.3997/2214-4609.202510616)
+
+::: {.callout-note}
+This public SEEM-KFUPM repository is a fork of the competition project and is licensed under GPL-3.0.
+:::
+
+## References
+
+::: {#refs}
+:::

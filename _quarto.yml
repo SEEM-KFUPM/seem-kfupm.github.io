@@ -1,6 +1,15 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "people/**/*.qmd"
+    - "projects/**/*.qmd"
+    - "publications/**/*.qmd"
+    - "blog/**/*.qmd"
+    # Prototype pages remain in source for later integration but are not
+    # rendered, indexed, or published with the production website.
+    - "!examples/**"
   resources:
     - assets/**
 
@@ -8,6 +17,7 @@ website:
   title: "SEEM · KFUPM"
   site-url: https://seem-kfupm.github.io
   description: "Smart Earth Exploration and Monitoring research at KFUPM"
+  draft-mode: gone
   favicon: assets/media/icon.png
   open-graph: true
   twitter-card: true
@@ -28,14 +38,10 @@ website:
         href: people/index.qmd
       - text: Publications
         href: publications/index.qmd
-      - text: Projects & Software
-        menu:
-          - text: Selected projects
-            href: projects/index.qmd
-          - text: Python notebook demo
-            href: examples/python.qmd
-      - text: News
-        href: news/index.qmd
+      - text: Projects
+        href: projects/index.qmd
+      - text: Blog
+        href: blog/index.qmd
       - text: Join / Contact
         href: join.qmd
     right:
@@ -53,12 +59,17 @@ website:
         <p><a href="https://cpg.kfupm.edu.sa/">College of Petroleum Engineering &amp; Geosciences</a> · <a href="https://www.kfupm.edu.sa/">KFUPM</a></p>
       </div>
     right:
+      - text: "Content: CC BY 4.0"
+        href: https://creativecommons.org/licenses/by/4.0/
+      - text: Powered by Quarto
+        href: https://quarto.org/
       - icon: github
         href: https://github.com/SEEM-KFUPM
         aria-label: SEEM on GitHub
 
 format:
   html:
+    page-layout: full
     theme:
       light: [cosmo, styles.scss]
       dark: [cosmo, styles.scss, styles-dark.scss]

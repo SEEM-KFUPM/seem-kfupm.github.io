@@ -1,0 +1,19 @@
+---
+title: "Generative geophysics seminars at Freie Universität Berlin"
+date: 2025-12-18
+author:
+  - name: "Dr. Denis Anikiev"
+    url: /people/profiles/denis-anikiev.html
+members: [denis-anikiev]
+description: "Two invited seminars explored generative AI for seismic imaging and machine learning for microseismic analysis."
+categories: [Invited talks, International collaboration, Generative AI]
+image: ../../assets/illustrations/research-workshop.svg
+image-alt: "A researcher presenting AI and coding concepts to an audience"
+toc: false
+---
+
+During an academic visit hosted by Prof. Dr. Serge Shapiro, Dr. Denis Anikiev delivered two invited seminars at Freie Universität Berlin.
+
+The Geo-Colloquium talk, *Emerging Trends in Generative AI for Seismic Imaging*, examined applications of generative models in exploration, earthquake-hazard research, and geothermal studies. A second seminar for the Applied and Earthquake Seismology group, *Machine Learning and Generative AI for Microseismicity*, focused on data-driven methods for passive-seismic analysis.
+
+The visit also provided an opportunity to discuss ongoing cooperation and new directions in AI-driven geophysical imaging.

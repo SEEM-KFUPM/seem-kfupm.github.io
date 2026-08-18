@@ -1,0 +1,36 @@
+---
+title: "FNO Localization"
+subtitle: "Real-time microseismic source localization with Fourier neural operators"
+description: "Research context and public links for FNO Localization"
+date: 2025-02-01
+categories: [Neural operators, Microseismic monitoring, Utah FORGE]
+image: ../assets/illustrations/seismic-localization.svg
+image-alt: "Subsurface seismic event localized from surface sensors"
+---
+
+## About
+
+FNO Localization accompanies the study of resolution-invariant microseismic source localization with a Fourier neural operator [@abdullin2025fno]. The model learns to map seismic observations to event locations and is demonstrated on field data from the Utah Frontier Observatory for Research in Geothermal Energy (FORGE).
+
+## Why it matters
+
+Conventional localization repeatedly solves wave-travel-time problems and can be expensive in operational monitoring. A trained neural operator is evaluated with one forward pass, making it attractive for rapid decisions during geothermal or subsurface operations.
+
+## Key result and audience
+
+The public record reports accurate hypocenter estimates in complex velocity settings and with partial data coverage. The repository is intended for researchers in induced seismicity, geothermal monitoring, neural operators, and real-time geophysical inference.
+
+## Public links
+
+- [GitHub repository](https://github.com/SEEM-KFUPM/FNO_Localization)
+- [Publication DOI](https://doi.org/10.1109/TGRS.2025.3533635)
+- [Utah FORGE](https://utahforge.com/)
+
+::: {.callout-note}
+This public SEEM-KFUPM repository is a fork of the authors' upstream project. The upstream provenance is preserved in GitHub.
+:::
+
+## References
+
+::: {#refs}
+:::

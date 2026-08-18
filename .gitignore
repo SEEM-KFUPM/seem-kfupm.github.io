@@ -9,3 +9,11 @@ __pycache__/
 
 
 **/*.quarto_ipynb
+
+# Agents
+AGENTS.md
+.agents/
+.codex_tmp
+
+# OS specific
+Th

@@ -1,0 +1,36 @@
+---
+title: "Explainable PhaseNet"
+subtitle: "Interpreting and strengthening microseismic event detection"
+description: "Research context and public links for the Explainable PhaseNet project"
+date: 2026-06-28
+categories: [Explainable AI, Event detection, Microseismic monitoring]
+image: ../assets/illustrations/explainable-ai.svg
+image-alt: "Highlighted P- and S-wave regions on a seismic waveform"
+---
+
+## About
+
+Explainable PhaseNet provides a maintained framework for understanding the waveform evidence behind PhaseNet detections [@abdullin2026xai]. It implements waveform Grad-CAM, exact component-wise Shapley values, SHAP-gated inference, and controlled noise-robustness experiments.
+
+## Why it matters
+
+Event detectors can appear confident for the wrong reasons, especially under pump noise or low signal-to-noise ratios. Explanations help researchers inspect phase sensitivity and use contribution patterns to reduce false alarms.
+
+## Key result and audience
+
+The repository reproduces the central manuscript workflows and figures, bundles tested model code, and supplies lightweight synthetic-fixture tests when large datasets are unavailable. It serves microseismic monitoring teams and researchers in trustworthy geoscience AI.
+
+## Public links
+
+- [GitHub repository](https://github.com/SEEM-KFUPM/xAI_PhaseNet)
+- [Publication DOI](https://doi.org/10.1016/j.aiig.2026.100246)
+- [Archived software release](https://zenodo.org/badge/latestdoi/1282764637)
+
+::: {.callout-note}
+This is an original SEEM-KFUPM repository and is distributed under the MIT License.
+:::
+
+## References
+
+::: {#refs}
+:::
