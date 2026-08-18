@@ -9,8 +9,8 @@ All work is done in this public repository; contributors do not need forks. Each
 | Role | Responsibility |
 | --- | --- |
 | Contributor | Creates a branch in this repository and opens a pull request (PR) to `dev`. |
-| **SEEM Website Team** | Reviews and merges contributor PRs into `dev`, checks the integrated website, and opens release PRs from `dev` to `main`. |
-| Website admins/owner | Gives final approval to a release PR to `main` to actually update the website. |
+| [**SEEM Website Team**](https://github.com/orgs/SEEM-KFUPM/teams/seem-website-team) | Reviews and merges contributor PRs into `dev`, checks the integrated website, and opens release PRs from `dev` to `main`. |
+| SEEM Website admins / owner | Gives final approval to a release PR to `main` to actually update the website. |
 
 The complete update path is:
 
