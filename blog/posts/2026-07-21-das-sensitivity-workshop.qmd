@@ -1,6 +1,6 @@
 ---
 title: "AI-accelerated DAS sensitivity modeling presented in Kuala Lumpur"
-date: 2026-07-22
+date: 2026-07-21
 author:
   - name: "Ayrat Abdullin"
   - name: "Dr. Denis Anikiev"
@@ -10,7 +10,8 @@ author:
 members: [denis-anikiev, umair-waheed]
 description: "SEEM PhD student Ayrat Abdullin presented neural-network approaches for reconstructing high-resolution DAS sensitivity maps."
 categories: [Student achievements, Distributed acoustic sensing, Neural operators]
-image: ../../assets/illustrations/das-processing.svg
+#image: ../../assets/illustrations/das-processing.svg
+image: ../../assets/blog/2026-07-21-das-sensitivity-workshop/hero.jpg
 image-alt: "Distributed acoustic sensing measurements transformed into a coherent seismic representation"
 toc: false
 ---
