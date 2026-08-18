@@ -4,12 +4,12 @@ Thank you for helping maintain the SEEM website. Content should be accurate, pub
 
 ## Website update workflow
 
-All work is done in this public repository; contributors do not need forks. Each contributor must be given **Write** access so they can push their own branch, but protected-branch rules prevent them from updating `dev` or `main` directly.
+All work is done in this public repository; contributors do not need forks. An authorized contributor must be a member of the [SEEM-KFUPM organization](https://github.com/SEEM-KFUPM) and must be given **Write** access so they can push their own branch. Protected-branch rules prevent contributors from updating `dev` or `main` directly.
 
 | Role | Responsibility |
 | --- | --- |
-| Contributor | Creates a branch in this repository and opens a pull request (PR) to `dev`. |
-| [**SEEM Website Team**](https://github.com/orgs/SEEM-KFUPM/teams/seem-website-team) | Reviews and merges contributor PRs into `dev`, checks the integrated website, and opens release PRs from `dev` to `main`. |
+| Contributor | Is a SEEM-KFUPM organization member who creates a branch in this repository and opens a pull request (PR) to `dev`. |
+| [**SEEM Website Team**](https://github.com/orgs/SEEM-KFUPM/teams/seem-website-team) | Reviews and merges contributor PRs into `dev`, may update `dev` directly, checks the integrated website, and opens release PRs from `dev` to `main`. |
 | SEEM Website admins / owner | Gives final approval to a release PR to `main` to actually update the website. |
 
 The complete update path is:
@@ -21,7 +21,7 @@ The complete update path is:
 5. The designated administrator or owner approves it.
 6. A SEEM Website Team member merges it, and GitHub Pages deploys `main`.
 
-Never push directly to `dev` or `main`. Contributor PRs must not target `main`.
+Contributors must never push directly to `dev` or `main`, and their PRs must not target `main`. SEEM Website Team members may update `dev` directly when necessary. Nobody may push directly to `main`; every production update must use a reviewed `dev` → `main` PR. Because the repository is public, GitHub may still allow a non-member to open a PR from a fork; such PRs are outside this contribution workflow and should be closed without merging.
 
 ### Archived prototypes
 
@@ -29,29 +29,78 @@ The `quarto` and `hugoblox` branches contain earlier website prototypes built wi
 
 ## Contributor steps
 
-Clone the repository, update `dev`, and create a clearly named branch:
+Before starting, accept the invitation to join the SEEM-KFUPM organization and confirm that you have Write access to this repository. Then clone the repository and create a clearly named branch from the latest remote `dev` branch. Do not modify `dev` itself.
+
+### 1. Create your branch
+
+In the examples below, `content/update-people-page` is the name of a new branch. It is not a folder or a special Git command. Choose a name that briefly describes your change, and use that same name in each later command.
+
+A branch name should:
+
+- start with a category such as `content/`, `fix/`, or `design/`;
+- use lowercase words separated by hyphens;
+- contain no spaces; and
+- describe one specific change.
+
+Examples include:
+
+- `content/update-people-page`
+- `content/add-research-project`
+- `fix/publication-link`
+- `fix/member-photo`
+- `design/improve-mobile-menu`
+
+The following example creates a branch for updating the People page:
 
 ```sh
 git clone https://github.com/SEEM-KFUPM/seem-kfupm.github.io.git
 cd seem-kfupm.github.io
-git switch dev
-git pull --ff-only origin dev
-git switch -c content/short-description
+git fetch origin
+git switch -c content/update-people-page origin/dev
 ```
+
+These commands perform the following steps:
+
+1. `git clone` downloads a working copy of the repository.
+2. `cd` enters the downloaded repository directory.
+3. `git fetch origin` downloads the latest branch information from GitHub without changing any files.
+4. `git switch -c content/update-people-page origin/dev` creates and switches to the new `content/update-people-page` branch, using the latest remote `dev` branch as its starting point. The `-c` option means “create a new branch.”
+
+`origin` is the name Git automatically gives to the GitHub repository from which it was cloned. `origin/dev` means the current `dev` branch stored on GitHub.
+
+You can confirm which branch is active with `git branch --show-current`. It should print your new branch name, not `dev` or `main`.
+
+### 2. Save and push your change
 
 Make and validate one focused change, then push the branch:
 
 ```sh
 git add <changed-files>
 git commit -m "Describe the website change"
-git push -u origin content/short-description
+git push -u origin content/update-people-page
 ```
 
-Open a PR with the contributor branch as the compare branch and `dev` as the base branch. Describe what changed, identify pages requiring visual review, and cite sources used to verify factual content. Address review comments by pushing more commits to the same branch.
+Here, `git add` selects files for the change, `git commit` records the selected changes locally with a short description, and `git push` uploads the new branch and its commits to GitHub.
+
+Replace `<changed-files>` with the files you changed, for example:
+
+```sh
+git add people/index.qmd
+```
+
+The first push must use the same branch name created above. The `-u` option connects the local branch to its GitHub branch; after that, additional commits can be uploaded with the shorter command `git push`.
+
+### 3. Open the pull request
+
+Open a PR with the contributor branch as the **compare** branch and `dev` as the **base** branch. The compare branch contains the proposed changes; the base branch is where the changes will go after approval. Describe what changed, identify pages requiring visual review, and cite sources used to verify factual content. Address review comments by pushing more commits to the same branch.
+
+The contributor branch is deleted from GitHub after the PR is merged. This does not delete the completed changes, because they have already been added to `dev`. Ask the Website Team to merge only when all planned work for that PR is complete, all review comments have been addressed, and the final checks pass. If another change is needed after the merge, create a new branch from the latest `origin/dev` instead of trying to reuse the deleted branch.
 
 ## Review and publication
 
-For a contributor PR to `dev`, a SEEM Website Team member checks the content and layout, waits for the Quarto build check, requests any necessary corrections, and **squash merges** the approved PR.
+For a contributor PR to `dev`, a SEEM Website Team member checks the content and layout, waits for the Quarto build check, requests any necessary corrections, and confirms that the contributor's work is complete. The team member then **squash merges** the approved PR and deletes its contributor branch.
+
+A Website Team member who updates `dev` directly must complete the same review and validation locally before pushing, because the direct-push bypass skips the PR approval and required checks.
 
 When `dev` is ready for publication, a SEEM Website Team member opens a PR with `main` as the base and `dev` as the compare branch. After the required administrator or owner approves it and all checks pass, a team member uses **Create a merge commit**. Do not squash or rebase this release PR; keeping the `dev` commits as ancestors of `main` prevents published changes from reappearing in later release PRs.
 
@@ -62,10 +111,12 @@ After merging, the team confirms that the GitHub Pages deployment succeeded and 
 ### Access and teams
 
 1. Keep the repository **Public** and `main` as its default branch.
-2. Give each regular contributor **Write** access, directly or through a contributor team. Write access is necessary to push branches inside the repository.
-3. Give **SEEM Website Team** **Write** access and add the editors who may review and merge into `dev` or `main`.
-4. Create **SEEM Website Approvers**, add the designated administrator or owner, and give the team **Write** access so its approval can satisfy a required-review rule. The person may retain Admin or organization Owner permissions separately.
-5. Allow both **squash merging** and **merge commits** under **Settings > General > Pull Requests**.
+2. Add each contributor as a member of the **SEEM-KFUPM** organization; do not use the outside-collaborator role for this workflow.
+3. Give each contributor **Write** access, directly or through an organization team. Write access is necessary to push branches inside the repository.
+4. Give **SEEM Website Team** **Write** access and add the editors who may review and merge into `dev` or `main`.
+5. Create **SEEM Website Approvers**, add the designated administrator or owner, and give the team **Write** access so its approval can satisfy a required-review rule. The person may retain Admin or organization Owner permissions separately.
+6. Allow both **squash merging** and **merge commits** under **Settings > General > Pull Requests**.
+7. Enable **Automatically delete head branches** so merged contributor branches are removed from the repository.
 
 The final approver cannot approve their own PR. A different Website Team member should therefore open the `dev` → `main` PR when the designated approver is also a Website Team member.
 
@@ -73,6 +124,7 @@ The final approver cannot approve their own PR. A different Website Team member 
 
 Under **Settings > Rules > Rulesets**, create an active branch ruleset named `Protect dev` that targets only `dev`:
 
+- Add **SEEM Website Team** to the bypass list with **Always allow** so its members may update `dev` directly.
 - Require a pull request and one approval from **SEEM Website Team** for the `**` file pattern.
 - Dismiss approvals when new commits are pushed and require all conversations to be resolved.
 - Require the `render` job from **Quarto build check** to pass and require the branch to be up to date.
@@ -85,6 +137,7 @@ Because contributors have Write access, also create a classic branch protection 
 
 Create an active branch ruleset named `Protect main` that targets only `main`:
 
+- Do not add any bypass actors; the rule must also apply to administrators and organization owners.
 - Require a pull request and one approval from **SEEM Website Approvers** for the `**` file pattern.
 - Dismiss approvals when new commits are pushed and require all conversations to be resolved.
 - Require the `render` job to pass and require the branch to be up to date.
