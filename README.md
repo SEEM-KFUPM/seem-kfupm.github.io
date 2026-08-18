@@ -40,3 +40,14 @@ python scripts/check_internal_links.py _site
 See [CONTRIBUTING.md](CONTRIBUTING.md) for content locations, attribution metadata, bibliography updates, review expectations, and the contributor checklist.
 
 The canonical address is configured in `_quarto.yml`. Pull requests are rendered and checked before publication.
+
+## Licensing
+
+This repository uses separate licenses for software and website content:
+
+- **Software — MIT License.** Source code, scripts, stylesheets, Quarto configuration, templates, and other software are licensed under the [MIT License](LICENSE). It permits reuse, modification, redistribution, and commercial use while requiring preservation of the copyright and license notice.
+- **Original content — CC BY 4.0.** Original website text and original SEEM illustrations are licensed under the [Creative Commons Attribution 4.0 International License](CONTENT-LICENSE.md). It permits sharing and adaptation, including commercial use, provided that SEEM · KFUPM is credited, the license is linked, and modifications are identified.
+
+The content license excludes institutional names, logos, trademarks and branding; portraits, photographs and personal information unless explicitly marked; third-party figures, media, quotations and publication content; linked external material; and content, software or data governed by another project's license. These materials remain subject to their respective rights and may require separate permission.
+
+See [CONTENT-LICENSE.md](CONTENT-LICENSE.md) for the complete scope, attribution guidance, and exclusions. The two licenses apply by material type: CC BY 4.0 does not replace the MIT License for code, and the MIT License does not grant rights to excluded website media or institutional branding.

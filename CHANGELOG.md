@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple date-based versioning.
 
+## 2026-08-18
+
+### Added
+
+- Added a CC BY 4.0 license for original website text and illustrations, with attribution guidance and explicit exclusions.
+
+### Changed
+
+- Documented the code/content dual-license model in the README and added CC BY 4.0 and “Powered by Quarto” footer links beside GitHub.
+- Refined the explainable AI illustration by removing stray diagram nodes and aligning the P- and S-wave bands with the first two arrivals.
+
 ## 2026-08-17
 
 ### Added

@@ -67,6 +67,10 @@ website:
         <p><a href="https://cpg.kfupm.edu.sa/">College of Petroleum Engineering &amp; Geosciences</a> · <a href="https://www.kfupm.edu.sa/">KFUPM</a></p>
       </div>
     right:
+      - text: "Content: CC BY 4.0"
+        href: https://creativecommons.org/licenses/by/4.0/
+      - text: Powered by Quarto
+        href: https://quarto.org/
       - icon: github
         href: https://github.com/SEEM-KFUPM
         aria-label: SEEM on GitHub
