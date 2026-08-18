@@ -1,0 +1,23 @@
+---
+title: "SEEM runs hands-on workshop on AI coding agents"
+date: 2026-04-29
+author:
+  - name: "Dr. Denis Anikiev"
+    url: /people/profiles/denis-anikiev.html
+  - name: "Dr. Umair bin Waheed"
+    url: /people/profiles/umair-waheed.html
+members: [denis-anikiev, umair-waheed]
+description: "Students used coding agents to turn research ideas into structured mini-projects while learning to review generated code critically."
+categories: [Workshops, Training, Reproducibility]
+image: ../../assets/illustrations/research-workshop.svg
+image-alt: "Presentation, code, and collaborators in a research coding workshop"
+toc: false
+---
+
+Dr. Denis Anikiev and Dr. Umair bin Waheed, together with students from the SEEM Group, organized a hands-on workshop titled *Introduction to AI Coding Agents: From Idea to Reproducible Mini-Projects* for students enrolled in a machine-learning course.
+
+Participants used Visual Studio Code and Codex to develop small, structured scientific-code projects. The guided exercises emphasized project organization, debugging, documentation, and reproducibility alongside critical review of AI-generated code and its limitations.
+
+The session was the first step toward an expanded two-day training initiative for PhD students, postdoctoral researchers, and research staff. The public project page brings together the reusable workshop materials and supporting resources.
+
+[Project story](../../projects/ai-coding-agents-workshop.qmd){.btn .btn-primary} [Workshop materials](https://github.com/SEEM-KFUPM/AI-Coding-Agents-Workshop){.btn .btn-outline-primary}

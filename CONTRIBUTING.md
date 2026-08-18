@@ -160,14 +160,15 @@ The `.github/workflows/quarto-check.yml` workflow validates pull requests and pu
 
 - Add or update member profiles in `people/profiles/`.
 - Add project cards in `projects/items/` and full project pages in `projects/`.
-- Add news posts in `news/posts/`.
+- Add blog posts in `blog/posts/`.
+- Store event photos in `assets/blog/<date>-<slug>/` and use descriptive filenames such as `hero.jpg` and `group-photo.jpg`.
 - Add reviewed bibliographic records to `publications.bib` and cite them as `[@citation-key]`.
 - Put reproducible teaching or research examples in `examples/`.
 - Store reusable images and illustrations in `assets/` and provide descriptive alternative text wherever they appear.
 
 ## People and post attribution
 
-Profile filenames act as stable member identifiers. Attribute a news post with a linked public byline and the corresponding member identifier:
+Profile filenames act as stable member identifiers. Attribute a blog post with a linked public byline and the corresponding member identifier:
 
 ```yaml
 author:

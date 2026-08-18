@@ -9,8 +9,8 @@ order: 1
 reviewed: 2026-08-17
 toc: false
 listing:
-  id: umair-news
-  contents: ../../news/posts/*.qmd
+  id: umair-blog
+  contents: ../../blog/posts/*.qmd
   include:
     members: umair-waheed
   type: default
@@ -48,5 +48,5 @@ Before joining KFUPM in 2017, Umair was a postdoctoral fellow in the Department 
 
 ## Latest blog posts
 
-::: {#umair-news}
+::: {#umair-blog}
 :::

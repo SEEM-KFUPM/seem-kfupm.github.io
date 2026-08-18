@@ -25,6 +25,7 @@ The material supports workshop participants, research students, instructors, and
 
 ## Public links
 
+- [Workshop recap](../blog/posts/2026-04-29-ai-coding-agents-workshop.qmd)
 - [GitHub repository](https://github.com/SEEM-KFUPM/AI-Coding-Agents-Workshop)
 - [Local setup guide](https://github.com/SEEM-KFUPM/AI-Coding-Agents-Workshop/blob/main/docs/setup/local-setup.md)
 - [Prompt cheat sheet](https://github.com/SEEM-KFUPM/AI-Coding-Agents-Workshop/blob/main/docs/agents/prompt-cheatsheet.md)

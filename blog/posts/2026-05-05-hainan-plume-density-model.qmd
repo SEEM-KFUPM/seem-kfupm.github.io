@@ -1,0 +1,21 @@
+---
+title: "3D density model reveals interaction between the Hainan plume and oceanic lithosphere"
+date: 2026-05-05
+author:
+  - name: "Dr. Denis Anikiev"
+    url: /people/profiles/denis-anikiev.html
+members: [denis-anikiev]
+description: "A new model of the South China Sea links lithospheric density and temperature contrasts to plume–ridge interaction."
+categories: [Publications, Gravity modeling, International collaboration]
+image: ../../assets/illustrations/geological-modeling.svg
+image-alt: "A geological cross-section representing density variations in the lithosphere"
+toc: false
+---
+
+A new study co-authored by Dr. Denis Anikiev presents a three-dimensional lithospheric density model of the South China Sea and examines how the Hainan mantle plume may have interacted with the oceanic lithosphere.
+
+The model integrates gravity observations with geological and geophysical constraints. The results identify a north–south density and temperature contrast across the extinct spreading axis in the eastern sub-basin, supporting a scenario in which plume material influenced asymmetric seafloor spreading through lateral flow toward the ridge.
+
+Published in *Journal of Geophysical Research: Solid Earth*, the work is an outcome of collaboration among researchers at Nanjing University, GFZ Helmholtz Centre for Geosciences, KFUPM, and partner institutions.
+
+[Read the article](https://doi.org/10.1029/2025JB031818){.btn .btn-primary}

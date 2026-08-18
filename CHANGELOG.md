@@ -9,12 +9,15 @@ and this project adheres to a simple date-based versioning.
 
 ### Added
 
+- Added retrospective blog stories covering SEEM research releases, workshops, presentations, visitors, collaborations, and student achievements.
 - Added a CC BY 4.0 license for original website text and illustrations, with attribution guidance and explicit exclusions.
 - Added official KFUPM undergraduate and research-based graduate study pathways to the homepage and Join / Contact page.
 - Added a “How to find us” section with an embedded map, Google Maps link, and official CPG campus directions for Building 76.
 
 ### Changed
 
+- Replaced the Blog grid with a framed chronological list that displays image thumbnails and groups posts automatically by year.
+- Activated the Blog listing, author profile associations, and RSS feed, renamed the section source folder to `blog/`, and linked the AI Coding Agents Workshop project page to its event recap.
 - Renamed “Projects & Software” to “Projects,” divided the catalog into Research and Education sections, moved the AI Coding Agents Workshop into Education, added quick-navigation buttons, and replaced the repository-centric introduction.
 - Renamed the visitor-facing News section to Blog in the navigation, page title, introductory copy, and member profile headings.
 - Updated the GitHub Actions workflow to use Node.js 24-compatible actions and run on pushes to `quarto`, `dev`, and `main`.

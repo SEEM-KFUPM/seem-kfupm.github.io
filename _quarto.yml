@@ -6,11 +6,10 @@ project:
     - "people/**/*.qmd"
     - "projects/**/*.qmd"
     - "publications/**/*.qmd"
-    - "news/index.qmd"
+    - "blog/**/*.qmd"
     # Prototype pages remain in source for later integration but are not
     # rendered, indexed, or published with the production website.
     - "!examples/**"
-    - "!news/posts/**"
   resources:
     - assets/**
 
@@ -41,10 +40,8 @@ website:
         href: publications/index.qmd
       - text: Projects
         href: projects/index.qmd
-      # The prototype post remains disabled; the Blog page shows a public
-      # placeholder until the first reviewed announcement is available.
       - text: Blog
-        href: news/index.qmd
+        href: blog/index.qmd
       - text: Join / Contact
         href: join.qmd
     right:

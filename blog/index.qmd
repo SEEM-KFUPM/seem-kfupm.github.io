@@ -1,0 +1,20 @@
+---
+title: "Blog"
+description: "Updates from SEEM"
+toc: false
+listing:
+  id: blog-posts
+  contents: "posts/*.qmd"
+  type: custom
+  template: listing-by-year.ejs.md
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
+  fields: [image, image-alt, title, description, author, date]
+  feed: true
+---
+
+<p class="page-lead">Follow research releases, workshops, presentations, visitors, and student achievements from SEEM.</p>
+
+::: {#blog-posts}
+:::

@@ -4,12 +4,12 @@ Official website of the **Smart Earth Exploration and Monitoring (SEEM)** resear
 
 **Website:** [https://seem-kfupm.github.io/](https://seem-kfupm.github.io/)
 
-This repository contains the production Quarto website, including the group's research themes, members, publications, public software projects, news, and contact information.
+This repository contains the production Quarto website, including the group's research themes, members, publications, public software projects, blog, and contact information.
 
 ## Highlights
 
 - Responsive Quarto site with search, light and dark themes, and accessible navigation.
-- Member profiles, publications, public research software, news, and reproducible computational examples.
+- Member profiles, publications, public research software, blog posts, and reproducible computational examples.
 - Automated rendering and internal-link validation with GitHub Actions.
 
 ## Local development

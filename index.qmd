@@ -194,9 +194,9 @@ SEEM brings together researchers working across computational geophysics, sensin
 <!--
 Prototype contribution-path card retained for possible later integration:
 
-Students and postdocs can copy a short `.qmd` template, preview locally, and open a pull request. Metadata powers the people, projects, and news listings automatically.
+Students and postdocs can copy a short `.qmd` template, preview locally, and open a pull request. Metadata powers the people, projects, and blog listings automatically.
 
-[Read the workflow note](news/posts/prototype-workflow.qmd)
+[Read the workflow note](blog/posts/prototype-workflow.qmd)
 -->
 :::
 :::

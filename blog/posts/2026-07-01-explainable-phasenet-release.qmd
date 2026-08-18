@@ -1,0 +1,23 @@
+---
+title: "Explainable PhaseNet paper and reproducible software released"
+date: 2026-07-01
+author:
+  - name: "Dr. Denis Anikiev"
+    url: /people/profiles/denis-anikiev.html
+  - name: "Dr. Umair bin Waheed"
+    url: /people/profiles/umair-waheed.html
+members: [denis-anikiev, umair-waheed]
+description: "The study uses Grad-CAM and SHAP to interpret PhaseNet and improve the robustness of microseismic-event detection."
+categories: [Research releases, Explainable AI, Microseismic monitoring]
+image: ../../assets/illustrations/explainable-ai.svg
+image-alt: "Highlighted P- and S-wave regions on a seismic waveform"
+toc: false
+---
+
+The article *Explainable AI for Microseismic Event Detection*, led by SEEM PhD student Ayrat Abdullin with Dr. Denis Anikiev and Dr. Umair bin Waheed, is available in *Artificial Intelligence in Geosciences* [@abdullin2026xai].
+
+The study applies Grad-CAM and SHAP to examine the waveform evidence behind PhaseNet decisions. It also introduces a SHAP-gated inference scheme designed to improve detection reliability and robustness under strong noise.
+
+To support transparent and reproducible research, the authors released the implementation, experiments, and supporting scripts through the SEEM-KFUPM GitHub organization and archived version 1.0 on Zenodo.
+
+[Project story](../../projects/xai-phasenet.qmd){.btn .btn-primary} [Article](https://doi.org/10.1016/j.aiig.2026.100246){.btn .btn-outline-primary} [GitHub repository](https://github.com/SEEM-KFUPM/xAI_PhaseNet){.btn .btn-outline-primary} [Zenodo archive](https://doi.org/10.5281/zenodo.20999758){.btn .btn-outline-primary}

@@ -1,0 +1,21 @@
+---
+title: "LLM-based assistants for geoscientific software published in IMAGE proceedings"
+date: 2026-02-18
+author:
+  - name: "Dr. Denis Anikiev"
+    url: /people/profiles/denis-anikiev.html
+  - name: "Dr. Umair bin Waheed"
+    url: /people/profiles/umair-waheed.html
+members: [denis-anikiev, umair-waheed]
+description: "A published IMAGE 2025 expanded abstract evaluates how retrieval and prompt design can support users of complex geoscientific software."
+categories: [Publications, Large language models, Research software]
+image: ../../assets/illustrations/geological-modeling.svg
+image-alt: "A conversational prompt producing a structured geological cross-section"
+toc: false
+---
+
+The expanded abstract *Leveraging LLM-based Assistants for Geoscientific Software* by Denis Anikiev, Umair bin Waheed, and Korhan Ayranci has been published in the proceedings of the Fifth International Meeting for Applied Geoscience & Energy.
+
+The study evaluates how large language model assistants, supported by retrieval-augmented generation and prompt engineering, can help users work with complex geoscientific software. Using the IGMAS+ 3D modeling platform as a case study, the authors compared assistant responses with expert guidance for both introductory and advanced questions.
+
+[Read the expanded abstract](https://doi.org/10.1190/image2025-4306506.1){.btn .btn-primary}

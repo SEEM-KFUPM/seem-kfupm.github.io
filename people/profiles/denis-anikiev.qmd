@@ -9,8 +9,8 @@ order: 2
 reviewed: 2026-08-17
 toc: false
 listing:
-  id: denis-news
-  contents: ../../news/posts/*.qmd
+  id: denis-blog
+  contents: ../../blog/posts/*.qmd
   include:
     members: denis-anikiev
   type: default
@@ -48,5 +48,5 @@ Before joining KFUPM, Denis worked on large-scale geological modelling and softw
 
 ## Latest blog posts
 
-::: {#denis-news}
+::: {#denis-blog}
 :::
