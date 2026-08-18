@@ -72,9 +72,9 @@ Physics-informed learning and explicit geological models for subsurface understa
 
 ::: {.section-band .soft}
 ::: {.section-intro}
-## Selected work
+## Selected projects
 
-The website explains why each result matters; GitHub remains the technical source of truth.
+Below are some selected projects spanning explainable event detection, seismic reconstruction, DAS denoising, and conversational geological modeling. [Explore all projects](projects/index.qmd).
 :::
 
 ::: {.project-grid}
@@ -206,7 +206,7 @@ Students and postdocs can copy a short `.qmd` template, preview locally, and ope
 ::: {}
 ## Work with SEEM
 
-Explore our open-source work, learn about the group, or propose a research collaboration.
+Interested in studying and researching with SEEM? Explore KFUPM pathways for [undergraduate admission](https://admissions.kfupm.edu.sa/en) and [research-based master's and PhD study](https://kfupm.edu.sa/study/master-of-science-thesis-based-phd), learn about the group, or propose a research collaboration.
 :::
 
 [Join / Contact](join.qmd){.btn .btn-light .btn-lg}

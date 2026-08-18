@@ -10,6 +10,8 @@ and this project adheres to a simple date-based versioning.
 ### Added
 
 - Added a CC BY 4.0 license for original website text and illustrations, with attribution guidance and explicit exclusions.
+- Added official KFUPM undergraduate and research-based graduate study pathways to the homepage and Join / Contact page.
+- Added a “How to find us” section with an embedded map, Google Maps link, and official CPG campus directions for Building 76.
 
 ### Changed
 
@@ -18,6 +20,8 @@ and this project adheres to a simple date-based versioning.
 - Documented the code/content dual-license model in the README and added CC BY 4.0 and “Powered by Quarto” footer links beside GitHub.
 - Expanded the contribution guide with the organization-member branch workflow, `dev` review and `main` approval rules, repository protection settings, archived prototype branches, beginner Git instructions, and post-merge branch cleanup.
 - Refined the explainable AI illustration by removing stray diagram nodes and aligning the P- and S-wave bands with the first two arrivals.
+- Renamed the homepage “Selected work” section to “Selected projects,” summarized its four research examples, and linked to the full project catalog.
+- Refocused the “Work with SEEM” and Join / Contact introductions on study pathways, the SEEM team, and the group's CPG affiliation.
 
 ## 2026-08-17
 
