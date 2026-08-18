@@ -14,6 +14,7 @@ and this project adheres to a simple date-based versioning.
 ### Changed
 
 - Documented the code/content dual-license model in the README and added CC BY 4.0 and “Powered by Quarto” footer links beside GitHub.
+- Expanded the contribution guide with the organization-member branch workflow, `dev` review and `main` approval rules, repository protection settings, archived prototype branches, beginner Git instructions, and post-merge branch cleanup.
 - Refined the explainable AI illustration by removing stray diagram nodes and aligning the P- and S-wave bands with the first two arrivals.
 
 ## 2026-08-17
