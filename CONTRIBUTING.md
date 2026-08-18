@@ -154,7 +154,7 @@ GitHub does not provide a native rule limiting who may open a PR. “Only a Webs
 
 The deployment must run only after a merge to `main`. Under **Settings > Pages > Build and deployment**, select **GitHub Actions** and use a deployment workflow triggered by pushes to `main`.
 
-The existing `.github/workflows/quarto-check.yml` validates PRs but does **not** deploy Pages. A deployment job or workflow must still be added. Follow the [GitHub Pages custom Actions guidance](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) and the [Quarto GitHub Pages guidance](https://quarto.org/docs/publishing/github-pages.html).
+The `.github/workflows/quarto-check.yml` workflow validates pull requests and pushes to `quarto`, `dev`, and `main`. After a successful push to `main`, it uploads the rendered `_site` output and deploys it to GitHub Pages. Follow the [GitHub Pages custom Actions guidance](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) and the [Quarto GitHub Pages guidance](https://quarto.org/docs/publishing/github-pages.html).
 
 ## Content locations
 
