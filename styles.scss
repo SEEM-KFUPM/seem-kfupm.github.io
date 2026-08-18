@@ -345,6 +345,26 @@ button:focus-visible {
   font-weight: 600;
 }
 
+.blog-post-hero {
+  background: var(--seem-mist);
+  border: 1px solid #d9e4df;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 62, 81, 0.09);
+  margin: 0 0 2rem;
+  overflow: hidden;
+}
+
+.blog-post-hero p {
+  margin: 0;
+}
+
+.blog-post-hero img {
+  aspect-ratio: 16 / 9;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
 #listing-team-profiles .card-img-top {
   align-items: center;
   background: transparent;

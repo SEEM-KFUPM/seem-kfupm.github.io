@@ -10,6 +10,7 @@ and this project adheres to a simple date-based versioning.
 ### Added
 
 - Added retrospective blog stories covering SEEM research releases, workshops, presentations, visitors, collaborations, and student achievements.
+- Added automatic hero images to Blog post pages using each post's existing image metadata.
 - Added a CC BY 4.0 license for original website text and illustrations, with attribution guidance and explicit exclusions.
 - Added official KFUPM undergraduate and research-based graduate study pathways to the homepage and Join / Contact page.
 - Added a “How to find us” section with an embedded map, Google Maps link, and official CPG campus directions for Building 76.
