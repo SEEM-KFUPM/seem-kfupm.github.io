@@ -1,0 +1,50 @@
+---
+title: "Ayrat Abdullin"
+subtitle: "Ph.D. Candidate · Smart Earth Exploration and Monitoring Research Group"
+description: "SciML & Geophysics Researcher specializing in the intersection of Scientific Machine Learning and computational geophysics."
+image: ../../assets/people/ayrat-abdullin.jpg
+image-alt: "Portrait of Ayrat Abdullin"
+categories: [Ph.D. Candidate, Computational geophysics, AI, SciML]
+order: 3
+reviewed: 2026-08-22
+toc: false
+listing:
+  id: ayrat-blog
+  contents: ../../blog/posts/*.qmd
+  include:
+    members: ayrat-abdullin
+  type: default
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
+  fields: [title, description, categories, date]
+---
+
+:::: {.member-profile-intro}
+::: {.member-profile-portrait-wrap}
+<img class="member-profile-portrait" src="../../assets/people/ayrat-abdullin.jpg" alt="Portrait of Ayrat Abdullin">
+:::
+
+::: {.member-profile-summary}
+Ayrat Abdullin is a Ph.D. Candidate in Geophysics at King Fahd University of Petroleum & Minerals (KFUPM). His work focuses on the intersection of Scientific Machine Learning (SciML) and computational geophysics, bridging theoretical deep learning with robust physical applications.
+
+Before joining KFUPM, Ayrat served as a Lead Expert at TATNEFT Oil & Gas Company in Russia, managing cross-functional teams and leading R&D projects. He holds a Master of Science in Geosciences from Colorado State University and a Bachelor of Science in Geophysics from Kazan Federal University.
+:::
+::::
+
+## Research interests
+
+- Scientific Machine Learning (SciML) and Neural Operators (FNO/GNO)
+- Generative Architectures & Diffusion Models
+- Inverse Problems and Data Assimilation
+- Real-Time Seismology and Edge-deployable AI
+- Cross-Domain Applications (Sustainable geo-energy, continuous subsurface monitoring)
+
+## Links
+
+- [Email Ayrat Abdullin](mailto:ayrat.abdullin@gmail.com)
+
+## Latest blog posts
+
+::: {#ayrat-blog}
+:::
