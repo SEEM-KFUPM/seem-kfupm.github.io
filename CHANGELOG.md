@@ -13,6 +13,7 @@ and this project adheres to a simple date-based versioning.
 
 ### Changed
 
+- Moved Blog listing images above their content on narrow screens and displayed them at full card width.
 - Shortened the top navigation bar title from “SEEM · KFUPM” to “SEEM”.
 - Made author names in Blog listing panels link to their People profiles using the posts' member slugs.
 - Replaced role-dependent Blog author URLs with profile slugs that resolve automatically and keep post bylines linked when profiles move between People folders.
