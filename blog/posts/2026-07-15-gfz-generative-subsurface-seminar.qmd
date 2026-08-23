@@ -3,7 +3,7 @@ title: "GFZ visit advances collaboration on generative subsurface modeling"
 date: 2026-07-15
 author:
   - name: "Dr. Denis Anikiev"
-    url: /people/profiles/denis-anikiev.html
+    url: /people/profiles/seniors/denis-anikiev.html
 members: [denis-anikiev]
 description: "An invited seminar and technical discussions explored diffusion-based inversion and the next generation of GeoSIRR."
 categories: [Invited talks, International collaboration, Generative AI]

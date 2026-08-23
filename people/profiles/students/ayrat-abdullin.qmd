@@ -2,7 +2,7 @@
 title: "Ayrat Abdullin"
 subtitle: "Ph.D. Candidate · Smart Earth Exploration and Monitoring Research Group"
 description: "SciML & Geophysics Researcher specializing in the intersection of Scientific Machine Learning and computational geophysics."
-image: ../../assets/people/ayrat-abdullin.jpg
+image: ../../../assets/people/ayrat-abdullin.jpg
 image-alt: "Portrait of Ayrat Abdullin"
 categories: [Ph.D. Candidate, Computational geophysics, AI, SciML]
 order: 3
@@ -10,7 +10,7 @@ reviewed: 2026-08-22
 toc: false
 listing:
   id: ayrat-blog
-  contents: ../../blog/posts/*.qmd
+  contents: ../../../blog/posts/*.qmd
   include:
     members: ayrat-abdullin
   type: default
@@ -22,7 +22,7 @@ listing:
 
 :::: {.member-profile-intro}
 ::: {.member-profile-portrait-wrap}
-<img class="member-profile-portrait" src="../../assets/people/ayrat-abdullin.jpg" alt="Portrait of Ayrat Abdullin">
+<img class="member-profile-portrait" src="../../../assets/people/ayrat-abdullin.jpg" alt="Portrait of Ayrat Abdullin">
 :::
 
 ::: {.member-profile-summary}

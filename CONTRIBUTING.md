@@ -158,7 +158,7 @@ The `.github/workflows/quarto-check.yml` workflow validates pull requests and pu
 
 ## Content locations
 
-- Add or update member profiles in `people/profiles/`.
+- Add or update member profiles in the appropriate role folder under `people/profiles/`: `seniors/`, `postdocs/`, or `students/`.
 - Add project cards in `projects/items/` and full project pages in `projects/`.
 - Add blog posts in `blog/posts/`.
 - Store event photos in `assets/blog/<date>-<slug>/` and use descriptive filenames such as `hero.jpg` and `group-photo.jpg`.
@@ -173,7 +173,7 @@ Profile filenames act as stable member identifiers. Attribute a blog post with a
 ```yaml
 author:
   - name: Dr. Denis Anikiev
-    url: /people/profiles/denis-anikiev.html
+    url: /people/profiles/seniors/denis-anikiev.html
 members: [denis-anikiev]
 ```
 

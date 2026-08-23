@@ -2,35 +2,59 @@
 title: "People"
 description: "Researchers working across geoscience, sensing, and machine learning"
 listing:
-  id: team-profiles
-  contents: "profiles/*.qmd"
-  type: grid
-  grid-columns: 3
-  sort:
-    - "order"
-    - "title"
-  sort-ui: false
-  filter-ui: false
-  fields: [image, title, subtitle, description, categories]
+  - id: senior-profiles
+    contents: "profiles/seniors"
+    type: grid
+    grid-columns: 3
+    sort:
+      - "order"
+      - "title"
+    sort-ui: false
+    filter-ui: false
+    fields: [image, title, subtitle, description, categories]
+  - id: postdoc-profiles
+    # Switch to "profiles/postdocs" when the first postdoc profile is added.
+    contents: []
+    type: grid
+    grid-columns: 3
+    sort:
+      - "order"
+      - "title"
+    sort-ui: false
+    filter-ui: false
+    fields: [image, title, subtitle, description, categories]
+  - id: student-profiles
+    contents: "profiles/students"
+    type: grid
+    grid-columns: 3
+    sort:
+      - "order"
+      - "title"
+    sort-ui: false
+    filter-ui: false
+    fields: [image, title, subtitle, description, categories]
 ---
 
-<p class="page-lead">SEEM brings together <a href="#senior-researchers">senior researchers</a>, <a href="#students">students</a>, and <a href="#alumni">alumni</a> working across geoscience, AI, machine learning, and engineering.</p>
+<p class="page-lead">SEEM brings together <a href="#senior-researchers">senior researchers</a>, <a href="#postdocs">postdocs</a>, <a href="#students">students</a>, and <a href="#alumni">alumni</a> working across geoscience, AI, machine learning, and engineering.</p>
 
 ## Senior Researchers {#senior-researchers}
 
-::: {#team-profiles}
+::: {#senior-profiles}
 :::
 
-<!--
 ## Postdocs {#postdocs}
 
+::: {#postdoc-profiles}
+:::
+
 Postdoctoral researchers will be listed here when profiles are available.
--->
 
 ## Students {#students}
 
+::: {#student-profiles}
+:::
+
 - Alessandro Traversa — [GitHub](https://github.com/traversa942)
-- Ayrat Abdullin — [GitHub](https://github.com/ayratabd)
 - Basem Al-Qadasi — [GitHub](https://github.com/basemqadasi)
 - Hugo Olea — [GitHub](https://github.com/Hugoolea03)
 - Naba Al Hamad — [Public profile](https://sa.linkedin.com/in/naba-al-hamad-a3ba4011a)

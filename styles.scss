@@ -365,7 +365,9 @@ button:focus-visible {
   width: 100%;
 }
 
-#listing-team-profiles .card-img-top {
+#listing-senior-profiles .card-img-top,
+#listing-postdoc-profiles .card-img-top,
+#listing-student-profiles .card-img-top {
   align-items: center;
   background: transparent;
   display: flex;
@@ -374,7 +376,9 @@ button:focus-visible {
   padding: 1.5rem 1.5rem 0.35rem;
 }
 
-#listing-team-profiles .thumbnail-image {
+#listing-senior-profiles .thumbnail-image,
+#listing-postdoc-profiles .thumbnail-image,
+#listing-student-profiles .thumbnail-image {
   aspect-ratio: 1;
   border: 3px solid #fff;
   border-radius: 50%;

@@ -3,9 +3,9 @@ title: "LLM-based assistants for geoscientific software published in IMAGE proce
 date: 2026-02-18
 author:
   - name: "Dr. Denis Anikiev"
-    url: /people/profiles/denis-anikiev.html
+    url: /people/profiles/seniors/denis-anikiev.html
   - name: "Dr. Umair bin Waheed"
-    url: /people/profiles/umair-waheed.html
+    url: /people/profiles/seniors/umair-waheed.html
 members: [denis-anikiev, umair-waheed]
 description: "A published IMAGE 2025 expanded abstract evaluates how retrieval and prompt design can support users of complex geoscientific software."
 categories: [Publications, Large language models, Research software]

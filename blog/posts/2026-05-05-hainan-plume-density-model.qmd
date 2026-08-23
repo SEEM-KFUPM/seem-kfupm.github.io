@@ -3,7 +3,7 @@ title: "3D density model reveals interaction between the Hainan plume and oceani
 date: 2026-05-05
 author:
   - name: "Dr. Denis Anikiev"
-    url: /people/profiles/denis-anikiev.html
+    url: /people/profiles/seniors/denis-anikiev.html
 members: [denis-anikiev]
 description: "A new model of the South China Sea links lithospheric density and temperature contrasts to plume–ridge interaction."
 categories: [Publications, Gravity modeling, International collaboration]
