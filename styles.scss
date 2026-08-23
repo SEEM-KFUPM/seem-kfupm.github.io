@@ -511,11 +511,13 @@ button:focus-visible {
   }
 
   .blog-listing-by-year .blog-listing-item {
-    grid-template-columns: 104px minmax(0, 1fr);
+    grid-template-columns: 1fr;
   }
 
   .blog-listing-by-year .blog-listing-image {
-    min-height: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    min-height: 0;
   }
 
   .blog-listing-by-year .blog-listing-content {
