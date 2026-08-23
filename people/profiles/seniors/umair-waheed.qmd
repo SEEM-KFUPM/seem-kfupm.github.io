@@ -2,7 +2,7 @@
 title: "Dr. Umair bin Waheed"
 subtitle: "Associate Professor · Department of Geosciences"
 description: "Computational geoscientist working on physics- and data-driven machine learning, geophysical modelling, inverse problems, induced seismicity, and geothermal exploration."
-image: ../../assets/people/umair-waheed.jpg
+image: ../../../assets/people/umair-waheed.jpg
 image-alt: "Portrait of Dr. Umair bin Waheed"
 categories: [Faculty, Computational geophysics, AI]
 order: 1
@@ -10,7 +10,7 @@ reviewed: 2026-08-17
 toc: false
 listing:
   id: umair-blog
-  contents: ../../blog/posts/*.qmd
+  contents: ../../../blog/posts/*.qmd
   include:
     members: umair-waheed
   type: default
@@ -22,7 +22,7 @@ listing:
 
 :::: {.member-profile-intro}
 ::: {.member-profile-portrait-wrap}
-<img class="member-profile-portrait" src="../../assets/people/umair-waheed.jpg" alt="Portrait of Dr. Umair bin Waheed">
+<img class="member-profile-portrait" src="../../../assets/people/umair-waheed.jpg" alt="Portrait of Dr. Umair bin Waheed">
 :::
 
 ::: {.member-profile-summary}

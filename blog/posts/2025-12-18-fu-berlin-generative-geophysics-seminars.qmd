@@ -3,7 +3,7 @@ title: "Generative geophysics seminars at Freie Universität Berlin"
 date: 2025-12-18
 author:
   - name: "Dr. Denis Anikiev"
-    url: /people/profiles/denis-anikiev.html
+    url: /people/profiles/seniors/denis-anikiev.html
 members: [denis-anikiev]
 description: "Two invited seminars explored generative AI for seismic imaging and machine learning for microseismic analysis."
 categories: [Invited talks, International collaboration, Generative AI]

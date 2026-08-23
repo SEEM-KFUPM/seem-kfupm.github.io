@@ -3,9 +3,9 @@ title: "Explainable PhaseNet paper and reproducible software released"
 date: 2026-07-01
 author:
   - name: "Dr. Denis Anikiev"
-    url: /people/profiles/denis-anikiev.html
+    url: /people/profiles/seniors/denis-anikiev.html
   - name: "Dr. Umair bin Waheed"
-    url: /people/profiles/umair-waheed.html
+    url: /people/profiles/seniors/umair-waheed.html
 members: [denis-anikiev, umair-waheed]
 description: "The study uses Grad-CAM and SHAP to interpret PhaseNet and improve the robustness of microseismic-event detection."
 categories: [Research releases, Explainable AI, Microseismic monitoring]
