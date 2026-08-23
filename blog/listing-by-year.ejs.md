@@ -6,6 +6,19 @@ let currentYear;
 for (const item of items) {
   const yearMatch = String(item.date).match(/\b\d{4}\b/);
   const year = yearMatch ? yearMatch[0] : "Undated";
+  const authorNames = String(item.author || "").split(/,\s+/).filter(Boolean);
+  const memberSlugs = Array.isArray(item.members)
+    ? item.members
+    : item.members
+      ? [item.members]
+      : [];
+
+  if (authorNames.length !== memberSlugs.length) {
+    throw new Error(
+      `Blog post "${item.title}" has ${authorNames.length} author name(s) `
+        + `but ${memberSlugs.length} member slug(s).`
+    );
+  }
 
   if (year !== currentYear) {
     if (currentYear !== undefined) {
@@ -33,7 +46,7 @@ for (const item of items) {
 </div>
 <div class="metadata">
 <div class="listing-date"><%= item.date %></div>
-<div class="listing-author"><%= item.author %></div>
+<div class="listing-author"><% for (let authorIndex = 0; authorIndex < authorNames.length; authorIndex++) { %><a href="{{< profile-url <%= memberSlugs[authorIndex] %> >}}"><%= authorNames[authorIndex] %></a><% if (authorIndex < authorNames.length - 1) { %>, <% } %><% } %></div>
 </div>
 </div>
 </article>
