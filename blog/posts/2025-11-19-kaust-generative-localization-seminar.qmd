@@ -3,9 +3,9 @@ title: "SEEM hosts seminar on generative microseismic localization"
 date: 2025-11-19
 author:
   - name: "Dr. Denis Anikiev"
-    url: /people/profiles/seniors/denis-anikiev.html
+    url: "{{< profile-url denis-anikiev >}}"
   - name: "Dr. Umair bin Waheed"
-    url: /people/profiles/seniors/umair-waheed.html
+    url: "{{< profile-url umair-waheed >}}"
 members: [denis-anikiev, umair-waheed]
 description: "Dr. Daniel Wamriew of KAUST visited SEEM to discuss waveform-based generative methods for locating microseismic events."
 categories: [Visitors, Microseismic monitoring, Generative AI]

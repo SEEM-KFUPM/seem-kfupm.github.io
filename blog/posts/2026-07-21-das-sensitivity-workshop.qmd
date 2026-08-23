@@ -3,11 +3,11 @@ title: "AI-accelerated DAS sensitivity modeling presented in Kuala Lumpur"
 date: 2026-07-21
 author:
   - name: "Ayrat Abdullin"
-    url: /people/profiles/students/ayrat-abdullin.html
+    url: "{{< profile-url ayrat-abdullin >}}"
   - name: "Dr. Denis Anikiev"
-    url: /people/profiles/seniors/denis-anikiev.html
+    url: "{{< profile-url denis-anikiev >}}"
   - name: "Dr. Umair bin Waheed"
-    url: /people/profiles/seniors/umair-waheed.html
+    url: "{{< profile-url umair-waheed >}}"
 members: [ayrat-abdullin, denis-anikiev, umair-waheed]
 description: "SEEM PhD student Ayrat Abdullin presented neural-network approaches for reconstructing high-resolution DAS sensitivity maps."
 categories: [Student achievements, Distributed acoustic sensing, Neural operators]

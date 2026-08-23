@@ -3,7 +3,7 @@ title: "AI-driven seismic and microseismic workflows presented at Saudi Aramco"
 date: 2026-05-13
 author:
   - name: "Dr. Denis Anikiev"
-    url: /people/profiles/seniors/denis-anikiev.html
+    url: "{{< profile-url denis-anikiev >}}"
 members: [denis-anikiev]
 description: "An invited seminar connected advances in seismic imaging, neural operators, diffusion models, and microseismic monitoring."
 categories: [Invited talks, Seismic imaging, Artificial intelligence]

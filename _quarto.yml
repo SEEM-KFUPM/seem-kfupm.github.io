@@ -86,3 +86,6 @@ execute:
   warning: false
 
 bibliography: publications.bib
+
+shortcodes:
+  - _extensions/profile-url/profile-url.lua

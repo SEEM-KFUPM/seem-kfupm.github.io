@@ -9,6 +9,7 @@ and this project adheres to a simple date-based versioning.
 
 ### Changed
 
+- Replaced role-dependent Blog author URLs with profile slugs that resolve automatically and keep post bylines linked when profiles move between People folders.
 - Split People profiles into senior researcher, postdoc, and student listings, with matching circular-card styling and a future postdoc placeholder.
 - Organized profile sources into role-specific folders with automatic discovery and updated internal profile links for the new paths.
 - Linked Ayrat Abdullin's profile from the latest blog post and associated the post with his member profile.

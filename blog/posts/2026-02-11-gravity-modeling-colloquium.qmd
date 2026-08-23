@@ -3,7 +3,7 @@ title: "Gravity-modeling colloquium connects global expertise with SEEM research
 date: 2026-02-11
 author:
   - name: "Dr. Denis Anikiev"
-    url: /people/profiles/seniors/denis-anikiev.html
+    url: "{{< profile-url denis-anikiev >}}"
 members: [denis-anikiev]
 description: "Prof. Hans-Jürgen Götze visited CPG and joined SEEM discussions on integrated 3D gravity modeling and generative AI."
 categories: [Visitors, Gravity modeling, International collaboration]

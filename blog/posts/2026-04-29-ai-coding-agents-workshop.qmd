@@ -3,9 +3,9 @@ title: "SEEM runs hands-on workshop on AI coding agents"
 date: 2026-04-29
 author:
   - name: "Dr. Denis Anikiev"
-    url: /people/profiles/seniors/denis-anikiev.html
+    url: "{{< profile-url denis-anikiev >}}"
   - name: "Dr. Umair bin Waheed"
-    url: /people/profiles/seniors/umair-waheed.html
+    url: "{{< profile-url umair-waheed >}}"
 members: [denis-anikiev, umair-waheed]
 description: "Students used coding agents to turn research ideas into structured mini-projects while learning to review generated code critically."
 categories: [Workshops, Training, Reproducibility]

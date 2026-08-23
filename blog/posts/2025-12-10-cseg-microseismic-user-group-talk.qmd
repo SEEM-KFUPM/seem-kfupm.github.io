@@ -3,7 +3,7 @@ title: "AI for microseismicity presented to the CSEG Microseismic User Group"
 date: 2025-12-10
 author:
   - name: "Dr. Denis Anikiev"
-    url: /people/profiles/seniors/denis-anikiev.html
+    url: "{{< profile-url denis-anikiev >}}"
 members: [denis-anikiev]
 description: "An invited technical presentation examined intelligent, adaptive, and interpretable AI workflows for passive seismic monitoring."
 categories: [Invited talks, Microseismic monitoring, Artificial intelligence]
