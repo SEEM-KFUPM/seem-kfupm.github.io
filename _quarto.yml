@@ -14,7 +14,7 @@ project:
     - assets/**
 
 website:
-  title: "SEEM · KFUPM"
+  title: "SEEM"
   site-url: https://seem-kfupm.github.io
   description: "Smart Earth Exploration and Monitoring research at KFUPM"
   draft-mode: gone
