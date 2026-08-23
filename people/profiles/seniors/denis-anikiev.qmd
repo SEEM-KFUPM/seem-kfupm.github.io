@@ -2,7 +2,7 @@
 title: "Dr. Denis Anikiev"
 subtitle: "Research Scientist · Center for Integrative Petroleum Research (CIPR)"
 description: "Computational geophysicist applying AI and machine learning to geoscience, with interests in DAS, microseismic imaging, seismic inversion, and subsurface modelling."
-image: ../../assets/people/denis-anikiev.jpg
+image: ../../../assets/people/denis-anikiev.jpg
 image-alt: "Portrait of Dr. Denis Anikiev"
 categories: [Faculty, Computational geophysics, Data Analytics, AI]
 order: 2
@@ -10,7 +10,7 @@ reviewed: 2026-08-17
 toc: false
 listing:
   id: denis-blog
-  contents: ../../blog/posts/*.qmd
+  contents: ../../../blog/posts/*.qmd
   include:
     members: denis-anikiev
   type: default
@@ -22,7 +22,7 @@ listing:
 
 :::: {.member-profile-intro}
 ::: {.member-profile-portrait-wrap}
-<img class="member-profile-portrait" src="../../assets/people/denis-anikiev.jpg" alt="Portrait of Dr. Denis Anikiev">
+<img class="member-profile-portrait" src="../../../assets/people/denis-anikiev.jpg" alt="Portrait of Dr. Denis Anikiev">
 :::
 
 ::: {.member-profile-summary}

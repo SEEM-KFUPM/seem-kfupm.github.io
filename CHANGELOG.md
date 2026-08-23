@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple date-based versioning.
 
+## 2026-08-23
+
+### Added
+
+- Added Ayrat Abdullin profile and photo
+
+### Changed
+
+- Shortened the top navigation bar title from “SEEM · KFUPM” to “SEEM”.
+- Made author names in Blog listing panels link to their People profiles using the posts' member slugs.
+- Replaced role-dependent Blog author URLs with profile slugs that resolve automatically and keep post bylines linked when profiles move between People folders.
+- Split People profiles into senior researcher, postdoc, and student listings, with matching circular-card styling and a future postdoc placeholder.
+- Organized profile sources into role-specific folders with automatic discovery and updated internal profile links for the new paths.
+- Linked Ayrat Abdullin's profile from the latest blog post and associated the post with his member profile.
+
 ## 2026-08-18
 
 ### Added

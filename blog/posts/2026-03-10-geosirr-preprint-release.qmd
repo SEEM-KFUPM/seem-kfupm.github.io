@@ -3,9 +3,9 @@ title: "GeoSIRR preprint and open research software released"
 date: 2026-03-10
 author:
   - name: "Dr. Denis Anikiev"
-    url: /people/profiles/denis-anikiev.html
+    url: "{{< profile-url denis-anikiev >}}"
   - name: "Dr. Umair bin Waheed"
-    url: /people/profiles/umair-waheed.html
+    url: "{{< profile-url umair-waheed >}}"
 members: [denis-anikiev, umair-waheed]
 description: "GeoSIRR turns natural-language geological descriptions into validated cross-section models that can be refined through conversation."
 categories: [Research releases, Geological modeling, Large language models]
