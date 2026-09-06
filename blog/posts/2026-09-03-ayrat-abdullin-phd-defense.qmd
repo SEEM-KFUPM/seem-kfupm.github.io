@@ -14,8 +14,6 @@ toc: false
 
 On September 3, 2026, **Ayrat Abdullin** stood before his committee in the Department of Geosciences, College of Petroleum Engineering & Geosciences, at King Fahd University of Petroleum & Minerals, to defend his PhD dissertation, *Towards Real-Time Microseismic Monitoring Using Deep Learning*. The dissertation, completed under the supervision of Dr. Umair bin Waheed, closes out several years of work at the intersection of deep learning and subsurface monitoring.
 
-![Ayrat Abdullin presenting his dissertation, with a slide summarizing the five papers behind it](../../assets/blog/2026-09-03-ayrat-abdullin-phd-defense/hero.jpg){.img-fluid}
-
 Rather than a single, self-contained thesis, the dissertation is a compilation of five research papers, each addressing a different stage of the same problem: making microseismic monitoring fast, reliable, and usable in real time. Together, they cover the full pipeline — detection, classification, phase picking, source localization, and velocity estimation — each rebuilt around deep learning methods designed to work under real-world constraints on speed and data availability.
 
 ## The five papers
